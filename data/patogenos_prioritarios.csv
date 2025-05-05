@@ -1,0 +1,207 @@
+Pathogen,Priority score,Priority order,Pathogen subtypes/names,Also known as,Pathogen Type,Priority type,Disease Type,Family,Priority,Disease,taxids,BRC's appearance,WasteWater,Afecting species,WHO,NIAID,ECDC,AFRICACDC,WOAH,CDC,FAO,EFSA,EU4S-DEEP,UKHSA,Number of priority lists,"Number of appearances (WHO, NIAD, ECDC)","Number of appearances (WHO, NIAD, ECDC, AFRICACDC)",Notes,NIAID Notes
+Vibrio Cholerae,14,1,,,Bacteria,"Pandemic preparedness, Biodefense/Bioterrorism, vaccine-preventable",Water-borne Disease,Vibrionaceae ,High Priority Group,cholera,127906,,,,X,X,X,X,,,,,,,3,3,4,,
+Orthoebolavirus sudanense,14,2,,Ebolavirus sudan,Virus,"Biodefense/Bioterrorism, Pandemic preparedness, vaccine-preventable",Viral haemorrhagic Fever,Filoviridae,Critical Priority Group,Ebola,3052462,,,,X,X,X,X,,,,,,,3,3,4,,"Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics"
+Orthoebolavirus zairense,14,3,,Ebolavirus zaire,Virus,"Biodefense/Bioterrorism, Pandemic preparedness, vaccine-preventable","Viral haemorrhagic Fever, Ebola",Filoviridae,Critical Priority Group,Ebola,3052460,,,,X,X,X,X,,,,,,,3,3,4,,"Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics"
+Orthomarburgvirus marburgense,14,4,,Marburg virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness, vaccine-preventable",Viral haemorrhagic Fever,Filoviridae,High Priority Group,Marburg fever,186537,,,,X,X,X,X,,,,,,,3,3,4,,"Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics"
+Orthoflavivirus denguei,14,5,Dengue virus,Dengue virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness, vaccine-preventable",Vector-borne Disease,Flaviviridae,High Priority Group,Dengue fever,3052464,,,,X,X,X,X,,,,,,,3,3,4,,"Viral hemorrhagic fevers (flaviviruses), Antiviral Program for Pandemics"
+Enterovirus C,14,6,Poliovirus,Enterovirus coxsackiepol,Virus,"Biodefense/Bioterrorism, Pandemic preparedness, vaccine-preventable",Vaccine-Preventable Disease,Picornaviridae,High Priority Group,"Poliomyelitus, Polio",138950,,,,X,X,X,X,,,,,,,3,3,4,,Antiviral Program for Pandemics
+Mammarenavirus lassaense,13,7,,Lassa virus,Virus,"Pandemic preparedness, Biodefense/Bioterrorism",Zoonosis,Arenaviridae,High Priority Group,Lassa fever,3052310,,,,X,X,X,X,,,,,,,2,3,4,,"Viral hemorrhagic fevers (arenaviruses), Antiviral Program for Pandemics"
+Severe acute respiratory syndrome-related coronavirus,13,8,SARS-CoV-2,,Virus,"Pandemic preparedness, vaccine-preventable","SARS, COVID-19",Coronaviridae,,,694009,,,,X,X,X,X,,,,,,,2,3,4,,
+Orthoflavivirus flavi ,13,9,Yellow fever virus,Yellow fever virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",Vector-borne Disease,Flaviviridae,High Priority Group,Yellow Fever,3046277,,,,X,X,X,X,,,,,,,2,3,4,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Orthonairovirus haemorrhagiae,13,10,,Crimean Congo Haemorrhagic Fever virus,Virus,"Pandemic preparedness, Biodefense/Bioterrorism",Viral haemorrhagic Fever,Nairoviridae,High Priority Group,Crimean Congo Haemorrhagic Fever (CCHF),3052518,,,,X,X,X,X,,,,,,,2,3,4,,"Viral hemorrhagic fevers (bunyaviruses), Antiviral Program for Pandemics"
+Monkeypox virus,13,11,,"MPXV, Mpox virus",Virus,"Pandemic preparedness, STI",Zoonosis,Poxviridae,High Priority Group,Mpox,10244,,,,X,X,X,X,,,,,,,2,3,4,,
+Chikungunya virus,13,12,,Alphavirus chikungunya,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",Vector-borne Disease,Togaviridae,Medium Priority Group,chikungunya,37124,,,,X,X,X,X,,,,,,,2,3,4,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Yersinia Pestis ,13,13,,,Bacteria,"Pandemic preparedness, Biodefense/Bioterrorism",Zoonosis,Yersiniaceae,High Priority Group,Plague,632,,,,X,X,X,X,,,,,,,2,3,4,,
+Coccidioides spp.,12,14,,,Fungi,"Biodefense/Bioterrorism, AMR/Nosocomial infection, Pandemic preparedness",,Onygenaceae,,,5500,,,,X,X,,,,,,,,,3,2,2,,
+Plasmodium spp.,12,15,,,Parasite (Protozoa),"Other, vaccine-preventable",vector-borne disease,Plasmodiidae,,Malaria,5820,,,,,X,X,,,,,,,,2,2,2,,
+Mucorales order,12,16,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness, Biodefense/Bioterrorism",,,High Priority Group,,4827,,,,X,X,,,,,,,,,3,2,2,,
+Mycobacterium tuberculosis,12,17,,,Bacteria,"AMR/Nosocomial infection, Animal disease, Biodefense/Bioterrorism, vaccine-preventable",,Mycobacteriaceae,,Tuberculosis,1773,,,Multiple Species,X,X,X,,X,,,,,,3,3,3,"rifampicin-resistant, Multidrug-resistant (MDR)",
+Shigella spp.,12,18,,,Bacteria,"Biodefense/Bioterrorism, AMR/Nosocomial infection, Pandemic preparedness",,Enterobacteriaceae,,Shigellosis,620,,,,X,X,X,,,,,,,,3,3,3,fluoroquinolone-resistant,Food- and/or waterborne pathogen
+Orthoflavivirus zikaense,12,19,Zika virus,Zika virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness, vaccine-preventable",Vector-borne Disease,Flaviviridae,,,3048459,,,,X,X,X,,,,,,,,3,3,3,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Alphainfluenzavirus influenzae,12,20,"Alphainfluenzavirus influenzae H1, H3
+Alphainfluenzavirus influenzae H2
+Alphainfluenzavirus influenzae H5, H6, H7, H10 (avian origin)",,Virus,"Pandemic preparedness, Biodefense/Bioterrorism, vaccine-preventable",,Orthomyxoviridae,,,2955291,,,,X,X,X,,,,,,,,3,3,3,,
+Variola virus,12,21,,Small pox virus,Virus,"Pandemic preparedness, Biodefense/Bioterrorism, vaccine-preventable","Smallpox, variola minor",Poxviridae,,,10255,,,,X,X,X,,,,,,,,3,3,3,,
+Human immunodeficiency virus 1,12,22,,HIV,Virus,"STI, vaccine-preventable, Pandemic preparedness",STI,Retroviridae,,acquired immune deficiency syndrome (AIDS),11676,,,,X,X,X,,,,,,,,3,3,3,,
+Merbecovirus spp.,12,23,MERS,,Virus,Pandemic preparedness,MERS (Middle East respiratory syndrome),Coronaviridae,,,2509494,,,,X,X,X,X,,,,,,,1,3,4,,
+Candidozyma auris,11,24,,Candida auris,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Metschnikowiaceae,Critical Priority Group,,498019,,,,X,X,,,,X,,,,,2,2,2,,
+Aspergillus fumigatus,11,25,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Aspergillaceae,Critical Priority Group,,746128,,,,X,X,,,,,,,,,2,2,2,,
+Candida albicans,11,26,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Debaryomycetaceae ,Critical Priority Group,,5476,,,,X,X,,,,,,,,,2,2,2,,
+Candida parapsilosis,11,27,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Debaryomycetaceae ,High Priority Group,,5480,,,,X,X,,,,,,,,,2,2,2,,
+Candida tropicalis,11,28,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Debaryomycetaceae ,High Priority Group,,5482,,,,X,X,,,,,,,,,2,2,2,,
+Nakaseomyces glabratus,11,29,,Candida glabrata,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Saccharomycetaceae ,High Priority Group,,5478,,,,X,X,,,,,,,,,2,2,2,,
+Leishmania spp.,11,30,,,Parasite (Protozoa),"Animal disease, Neglected Tropical Diseases",vector-borne disease,Trypanosomatidae,,Leishmaniosis,5658,,,Multiple Species,,X,X,,X,,,,,,1,2,2,,
+Cryptosporidium spp. ,11,31,"C. parvum, C. hominidis",,Parasite (Protozoa),Biodefense/Bioterrorism,,Cryptosporidiidae,,Cryptosporidiosis,5806,,,,,X,X,,,,,,,,1,2,2,,
+Giardia intestinalis,11,32,,"Giardia lamblia
+Lamblia intestinalis",Parasite (Protozoa),Biodefense/Bioterrorism,,Hexamitidae,,Giardiasis,5741,,,,,X,X,,,,,,,,1,2,2,,
+Toxoplasma gondii,11,33,,,Parasite (Protozoa),Biodefense/Bioterrorism,,Sarcocystidae,,,5811,,,,,X,X,,,,,,,,1,2,2,,
+Orthohantavirus hantanense,11,34,,Korean hemorrhagic fever virus,Virus,"Pandemic preparedness, Biodefense/Bioterrorism",Hantavirus pulmonary syndrome,Hantaviridae,,,3052480,,,,X,X,X,,,,,,,,2,3,3,,Viral hemorrhagic fevers (bunyaviruses)
+Neisseria gonorrhoeae,11,35,,gonoccocus,Bacteria,"AMR/Nosocomial infection, STI",,Neisseriaceae,,Gonnorheae,485,,,,X,X,X,,,,,,,,2,3,3,"fluoroquinolone-resistant, third-generation cephalosporin-resistant",
+Henipavirus nipahense,11,36,,"Nipah henipavirus
+Nipah virus",Virus,"Pandemic preparedness, Biodefense/Bioterrorism",,Paramyxoviridae,,,3052225,,,,X,X,X,,,,,,,,2,3,3,,Antiviral Program for Pandemics
+Escherichia coli,10,37,"STEC, EPEC",,Bacteria,AMR/Nosocomial infection,,Enterobacteriaceae,,enteroinvasive diarrhea,562,,,,X,X,X,,,X,,,,,1,3,3,"third-generation cephalosporin-resistant, carbapenem-resistant, Extended-spectrum beta-lactamase (ESBL)",Food- and/or waterborne pathogen
+Salmonella enterica subsp. enterica,10,38,"typhi, not-typhi (enterititidis)",,Bacteria,Pandemic preparedness,,Enterobacteriaceae ,,,59201,,,,X,X,X,,,X,,,,,1,3,3,fluoroquinolone-resistant,
+Streptococcus pneumoniae,10,39,,,Bacteria,AMR/Nosocomial infection,,Streptococcaceae,,,1313,,,,X,X,X,,,,,,,,1,3,3,"macrolide-resistant, penicillin-resistant",
+Phlebovirus riftense ,10,40,Rift Valley fever virus,Rift Valley fever virus,Virus,"Biodefense/Bioterrorism, Animal disease, Pandemic preparedness",Vector-borne Disease,Phenuiviridae,High Priority Group,Rift valley fever,3052676,,,Multiple Species,,X,X,X,X,,,,,,2,2,3,,"Viral hemorrhagic fevers (bunyaviruses), Antiviral Program for Pandemics"
+Morbillivirus hominis  ,10,41,Measles morbillivirus,Measles morbillivirus,Virus,"vaccine-preventable, Pandemic preparedness",Vaccine-Preventable Disease,Paramyxoviridae,High Priority Group,Measles,3052345,,,,,X,X,X,,,,,,,2,2,3,,Antiviral Program for Pandemics
+Borrelia burgdorferi,9,42,,,Bacteria,"Pandemic preparedness, Biodefense/Bioterrorism, vaccine-preventable",Vector-borne Disease,Borreliaceae,,Lyme disease,139,,,,,X,X,,,,,,,,3,2,2,,
+Orthoflavivirus nilense,9,43,West Nile virus,West Nile virus,Virus,"Biodefense/Bioterrorism, vaccine-preventable, Pandemic preparedness",,Flaviviridae,,WNV,3048448,,,,,X,X,,,,,,,,3,2,2,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Betainfluenzavirus influenzae,9,44,,,Virus,"Pandemic preparedness, Biodefense/Bioterrorism, vaccine-preventable",,Orthomyxoviridae,,,2955465,,,,,X,X,,,,,,,,3,2,2,,
+Deltainfluenzavirus influenzae,9,45,,,Virus,"Pandemic preparedness, Biodefense/Bioterrorism, vaccine-preventable",,Orthomyxoviridae,,,2955744,,,,,X,X,,,,,,,,3,2,2,,
+Gammainfluenzavirus influenzae,9,46,,,Virus,"Biodefense/Bioterrorism, Pandemic preparedness, vaccine-preventable",,Orthomyxoviridae,,,2955935,,,,,X,X,,,,,,,,3,2,2,,
+Hepatovirus A,9,47,,Hepatitis A virus,Virus,"Biodefense/Bioterrorism, STI, vaccine-preventable",,Picornaviridae,,,12092,,,,,X,X,,,,,,,,3,2,2,,Food- and/or waterborne pathogen
+Bacillus anthracis,9,48,,,Bacteria,"Biodefense/Bioterrorism, Animal disease",Zoonosis,Bacillaceae,High Priority Group,anthrax,1392,,,Multiple Species,,X,X,X,X,,,,,,1,2,3,,
+Lyssavirus rabies,9,49,,Rabies virus,Virus,"Biodefense/Bioterrorism, Animal disease",Zoonosis,Rhabdoviridae,High Priority Group,Rabies,11292,,,Multiple Species,,X,X,X,X,,,,,,1,2,3,,
+Orthoflavivirus japonicum ,8,50,Japanese encephalitis virus,Japanese encephalitis virus,Virus,"Biodefense/Bioterrorism, Animal disease, Pandemic preparedness",,Flaviviridae,,JE,3048158,,,Multiple Species,,X,X,,X,,,,,,2,2,2,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Acinetobacter baumannii,8,51,,,Bacteria,"AMR/Nosocomial infection, Pandemic preparedness",,Moraxellaceae ,,,470,,,,X,X,,,,X,,,,,2,2,2,"carbapenem-resistant, Multidrug-resistant (MDR)",
+Bordetella pertussis,8,52,,,Bacteria,"Biodefense/Bioterrorism, vaccine-preventable",,Alcaligenaceae ,,Pertussis o whooping cough,520,,,,,X,X,,,,,,,,2,2,2,,
+Campylobacter jejuni,8,53,,,Bacteria,"Biodefense/Bioterrorism, AMR/Nosocomial infection",,Campylobacteraceae ,,,197,,,,,X,X,,,,,,,,2,2,2,,Food- and/or waterborne pathogen
+Chlamydia trachomatis,8,54,,,Bacteria,"STI, Neglected Tropical Diseases",,Chlamydiaceae ,,Chlamydia,813,,,,,X,X,,,,,,,,2,2,2,,
+Klebsiella pneumoniae,8,55,,,Bacteria,"AMR/Nosocomial infection, Pandemic preparedness",,Enterobacteriaceae,,,573,,,,X,X,,,,,,,,,2,2,2,"carbapenem-resistant, third-generation cephalosporin-resistant",
+Haemophilus influenzae,8,56,,,Bacteria,"AMR/Nosocomial infection, vaccine-preventable",,Pasteurellaceae,,,727,,,,X,,X,,,,,,,,2,2,2,ampicillin-resistant,
+Clostridioides difficile,8,57,,,Bacteria,"Pandemic preparedness, AMR/Nosocomial infection",,Peptostreptococcaceae ,,,1496,,,,,X,X,,,,,,,,2,2,2,,
+Orthopneumovirus hominis,8,58,,Human Respiratory syncytial virus,Virus,"vaccine-preventable, Pandemic preparedness",,Pneumoviridae,,,3049954,,,,,X,X,,,,,,,,2,2,2,,Antiviral Program for Pandemics
+Streptococcus pyogenes,8,59,,"GAS, group A streptococcus",Bacteria,"AMR/Nosocomial infection, vaccine-preventable",,Streptococcaceae,,,1314,,,,X,X,,,,,,,,,2,2,2,macrolide-resistant,
+Venezuelan equine encephalitis virus,8,60,,Alphavirus Venezuelan,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Togaviridae,,Venezuelan equine encephalitis (VEE),11036,,,,X,X,,,,,,,,,2,2,2,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Balamuthia mandrillaris,7,61,,,Parasite (Protozoa),Biodefense/Bioterrorism,,Balamuthiidae,,,66527,,,,,X,,,,,,,,,,1,1,,
+Cyclospora cayetanensis,7,62,,,Parasite (Protozoa),Biodefense/Bioterrorism,,Eimeriidae,,,88456,,,,,X,,,,,,,,,,1,1,,
+Entamoeba histolytica,7,63,,,Parasite (Protozoa),Biodefense/Bioterrorism,,Entamoebidae,,,5759,,,,,X,,,,,,,,,,1,1,,
+Trichomonas vaginalis,7,64,,,Parasite (Protozoa),STI,STI,Trichomonadidae ,,Trichomoniasis,5722,,,,,X,,,,,,,,,,1,1,,
+Trypanosoma spp.,7,65,,,Parasite (Protozoa),Neglected Tropical Diseases,,Trypanosomatidae,,Trypanosomiasis,5690,,,,,X,,,,,,,,,,1,1,,
+Naegleria fowleri,7,66,,,Parasite (Protozoa),Biodefense/Bioterrorism,,Vahlkampfiidae,,,5763,,,,,X,,,,,,,,,,1,1,,
+Brucella spp.,7,67,,,Bacteria,"Biodefense/Bioterrorism, Animal disease",,Brucellaceae,,brucellosis,234,,,Multiple Species,,X,X,,X,,,,,,1,2,2,,
+Enterococcus faecium,7,68,,,Bacteria,AMR/Nosocomial infection,,Enterococcaceae ,,,1352,,,,X,X,,,,X,,,,,1,2,2,vancomycin-resistant,
+Pseudomonas aeruginosa,7,69,,,Bacteria,AMR/Nosocomial infection,,Pseudomonadaceae ,,,287,,,,X,X,,,,X,,,,,1,2,2,"carbapenem-resistant, Multidrug-resistant (MDR)",
+Staphylococcus aureus,7,70,,,Bacteria,AMR/Nosocomial infection,,Staphylococcaceae ,,,1280,,,,X,X,,,,X,,,,,1,2,2,"methicillin-resistant, vancomycin-resistant",
+Caliciviruses,7,71,Norovirus,,Virus,Biodefense/Bioterrorism,,Caliciviridae,,,11974,,,,,X,X,,,,,,,,1,2,2,,Food- and/or waterborne pathogen
+Coxiella burnetii ,7,72,,,Bacteria,Biodefense/Bioterrorism,,Coxiellaceae,,Q fever,777,,,,,X,X,,,,,,,,1,2,2,,
+Orthoflavivirus encephalitidis,7,73,"tick-borne encephalitis virus-European subtype
+tick-borne encephalitis virus-Siberian subtype
+tick-borne encephalitis viruses Far Eastern subtype",,Virus,Biodefense/Bioterrorism,,Flaviviridae,,,3052465,,,,,X,X,,,,,,,,1,2,2,,Tickborne hemorrhagic fever flaviviruses
+Francisella tularensis ,7,74,,,Bacteria,Biodefense/Bioterrorism,,Francisellaceae,,tularemia,263,,,,,X,X,,,,,,,,1,2,2,,
+Orthohantavirus sinnombreense,7,75,,,Virus,Pandemic preparedness,,Hantaviridae,,,3052499,,,,X,,X,,,,,,,,1,2,2,,
+Leptospira spp.,7,76,,,Bacteria,Biodefense/Bioterrorism,,Leptospiraceae,,,171,,,,,X,X,,,,,,,,1,2,2,,
+Listeria monocytogenes,7,77,,,Bacteria,Biodefense/Bioterrorism,,Listeriaceae,,,1126011,,,,,X,X,,,,,,,,1,2,2,,Food- and/or waterborne pathogen
+Human papillomavirus,7,78,,,Virus,STI,STI,Papillomaviridae,,,10566,,,,,X,X,,,,,,,,1,2,2,,
+Streptococcus agalactiae,7,79,,Group B Streptococci,Bacteria,AMR/Nosocomial infection,,Streptococcaceae,,,1311,,,,X,X,,,,,,,,,1,2,2,"penicillin-resistant, macrolide-resistant",
+Treponema pallidum,7,80,,,Bacteria,STI,STI,Treponemataceae ,,Syphilis,160,,,,,X,X,,,,,,,,1,2,2,,
+Yersinia enterocolitica,7,81,,,Bacteria,Biodefense/Bioterrorism,,Yersiniaceae,,,630,,,,,X,X,,,,,,,,1,2,2,,Food- and/or waterborne pathogen
+Histoplasma spp.,6,82,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Ajellomycetaceae,High Priority Group,,5036,,,,X,,,,,,,,,,,1,1,,
+Paracoccidioides spp.,6,83,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Ajellomycetaceae,Medium Priority Group,,38946,,,,X,,,,,,,,,,,1,1,,
+Cryptococcus gattii,6,84,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Cryptococcaceae,Medium Priority Group,,37769,,,,X,,,,,,,,,,,1,1,,
+Cryptococcus neoformans,6,85,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Cryptococcaceae,Critical Priority Group,,5207,,,,X,,,,,,,,,,,1,1,,
+Lomentospora prolificans,6,86,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Microascaceae,Medium Priority Group,,41688,,,,X,,,,,,,,,,,1,1,,
+Scedosporium spp.,6,87,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Microascaceae,Medium Priority Group,,41687,,,,X,,,,,,,,,,,1,1,,
+Fusarium spp.,6,88,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Nectriaceae,High Priority Group,,5506,,,,X,,,,,,,,,,,1,1,,
+Pichia kudriavzeveii,6,89,,Candida krusei,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Pichiaceae,Medium Priority Group,,4909,,,,X,,,,,,,,,,,1,1,,
+Pneumocystis jirovecii,6,90,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Pneumocystaceae,Medium Priority Group,,42068,,,,X,,,,,,,,,,,1,1,,
+Talaromyces marneffei,6,91,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Trichocomaceae,Medium Priority Group,,37727,,,,X,,,,,,,,,,,1,1,,
+Microsporidia phylum,6,92,,,Fungi,Biodefense/Bioterrorism,,,,,6029,,,,,X,,,,,,,,,,1,1,,Food- and/or waterborne pathogen
+Madurella mycetomatis,6,93,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,,High Priority Group,Eumycetoma,100816,,,,X,,,,,,,,,,,1,1,,
+Trematosphaeria grisea,6,94,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Trematosphaeriaceae,High Priority Group,Eumycetoma,1489895,,,,X,,,,,,,,,,,1,1,,
+Falciformispora senegalensis,6,95,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Trematosphaeriaceae,High Priority Group,Eumycetoma,1489897,,,,X,,,,,,,,,,,1,1,,
+Acremonium spp.,6,96,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,,High Priority Group,Eumycetoma,159075,,,,X,,,,,,,,,,,1,1,,
+Scedosporium apiospermum,6,97,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Microascaceae,High Priority Group,Eumycetoma,563466,,,,X,,,,,,,,,,,1,1,,
+Curvularia spp.,6,98,,,Fungi,"AMR/Nosocomial infection, Pandemic preparedness",,Pleosporaceae,High Priority Group,Eumycetoma,5502,,,,X,,,,,,,,,,,1,1,,
+Neisseria meningitidis,5,99,,meningococcus,Bacteria,vaccine-preventable,Vaccine-Preventable Disease,Neisseriaceae,High Priority Group,Meningococcal meningitis,487,,,,,,X,X,,,,,,,,1,2,,
+Bonamia exitiosa,4,100,,,Parasite (Protozoa),Animal disease,,Haplosporidiidae,,,362532,,,Molluscs,,,,,X,,,,,,,0,0,,
+Bonamia ostreae,4,101,,,Parasite (Protozoa),Animal disease,,Haplosporidiidae,,,126728,,,Molluscs,,,,,X,,,,,,,0,0,,
+Marteilia refringens,4,102,,,Parasite (Protozoa),Animal disease,,Marteiliidae,,,107386,,,Molluscs,,,,,X,,,,,,,0,0,,
+Perkinsus marinus,4,103,,,Parasite (Protozoa),Animal disease,,Perkinsidae,,,31276,,,Molluscs,,,,,X,,,,,,,0,0,,
+Perkinsus olseni,4,104,,,Parasite (Protozoa),Animal disease,,Perkinsidae,,,32597,,,Molluscs,,,,,X,,,,,,,0,0,,
+Batrachochytrium dendrobatidis,3,105,,,Fungi,Animal disease,,Batrachochytriaceae,,,109871,,,Amphibians,,,,,X,,,,,,,0,0,,
+Batrachochytrium salamandrivorans,3,106,,,Fungi,Animal disease,,Batrachochytriaceae,,,1357716,,,Amphibians,,,,,X,,,,,,,0,0,,
+Aphanomyces astaci ,3,107,,,Fungi,Animal disease,,Leptolegniaceae,,Crayfish plague,112090,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Aphanomyces invadans,3,108,,A. invadans (syn. A. piscicida),Fungi,Animal disease,,Saprolegniaceae,,Epizootic ulcerative syndrome,157072,,,Fish,,,,,X,,,,,,,0,0,,
+Bandavirus dabieense,3,109,,,Virus,Pandemic preparedness,,Phenuiviridae,,,2748958,,,,X,,,,,X,,,,,,1,1,,
+Echinococcus granulosus,3,110,,,Parasite (Metazoa),Animal disease,Zoonosis,Taeniidae,,hydatidosis,6210,,,Multiple Species,,,X,,X,,,,,,,1,1,,
+Echinococcus multilocularis,3,111,,,Parasite (Metazoa),Animal disease,Zoonosis,Taeniidae,,alveolar echinococcosis,6211,,,Multiple Species,,,X,,X,,,,,,,1,1,,
+Vibrio parahaemolyticus,3,112,,,Bacteria,"Animal disease, Biodefense/Bioterrorism",,Vibrionaceae,,Acute hepatopancreatic necrosis disease,670,,,Crustaceans,,X,,,X,,,,,,,1,1,,
+Ehrlichia sp.,3,113,,,Bacteria,Biodefense/Bioterrorism,,Anaplasmataceae,,,943,,,,,X,,,,,,,,,,1,1,,
+Mammarenavirus chapareense,3,114,,Chapare virus,Virus,Biodefense/Bioterrorism,,Arenaviridae,,,3052302,,,,,X,,,,,,,,,,1,1,,Viral hemorrhagic fevers (arenaviruses)
+Mammarenavirus guanaritoense,3,115,,Guanarito virus,Virus,Biodefense/Bioterrorism,,Arenaviridae,,,3052307,,,,,X,,,,,,,,,,1,1,,Viral hemorrhagic fevers (arenaviruses)
+Mammarenavirus juninense,3,116,,Junin virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Arenaviridae,,,2169991,,,,,X,,,,,,,,,,1,1,,"Viral hemorrhagic fevers (arenaviruses), Antiviral Program for Pandemics"
+Mammarenavirus lujoense,3,117,,Lujo virus,Virus,Biodefense/Bioterrorism,,Arenaviridae,,,3052314,,,,,X,,,,,,,,,,1,1,,Viral hemorrhagic fevers (arenaviruses)
+Mammarenavirus choriomeningitidis,3,118,,Lymphocytic choriomeningitis virus,Virus,Biodefense/Bioterrorism,,Arenaviridae,,,3052303,,,,,X,,,,,,,,,,1,1,,
+Mammarenavirus machupoense,3,119,,Machupo virus,Virus,Biodefense/Bioterrorism,,Arenaviridae,,,3052317,,,,,X,,,,,,,,,,1,1,,Viral hemorrhagic fevers (arenaviruses)
+Mammarenavirus choriomeningitidis,3,120,,,Virus,Pandemic preparedness,,Arenaviridae,,,3052303,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Mammarenavirus caliense ,3,121,Pichinde virus,Pichinde virus,Virus,Pandemic preparedness,,Arenaviridae,,,3052300,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Mammarenavirus tacaribeense,3,122,,,Virus,Pandemic preparedness,,Arenaviridae,,,3052328,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Borrelia mayonii,3,123,,,Bacteria,Biodefense/Bioterrorism,,Borreliaceae,,Lyme disease,1674146,,,,,X,,,,,,,,,,1,1,,
+Borrelia miyamotoi,3,124,,,Bacteria,Biodefense/Bioterrorism,,Borreliaceae,,,47466,,,,,X,,,,,,,,,,1,1,,
+Burkholderia mallei,3,125,,,Bacteria,Biodefense/Bioterrorism,,Burkholderiaceae,,glanders,13373,,,,,X,,,,,,,,,,1,1,,
+Burkholderia pseudomallei,3,126,,,Bacteria,Biodefense/Bioterrorism,,Burkholderiaceae,,melioidosis,28450,,,,,X,,,,,,,,,,1,1,,
+Chlamydia psittaci,3,127,,,Bacteria,Biodefense/Bioterrorism,,Chlamydiaceae,,psittacosis,83554,,,,,X,,,,,,,,,,1,1,,
+Clostridium botulinum,3,128,,,Bacteria,Biodefense/Bioterrorism,,Clostridiaceae,,Botulism,1491,,,,,,X,,,,,,,,,1,1,,
+Clostridium tetani,3,129,,,Bacteria,vaccine-preventable,,Clostridiaceae,,Tetanus,1513,,,,,,X,,,,,,,,,1,1,,
+Corynebacterium diphtheriae,3,130,,,Bacteria,vaccine-preventable,,Corynebacteriaceae,,Difteria,1717,,,,,,X,,,,,,,,,1,1,,
+Citrobacter spp.,3,131,,,Bacteria,AMR/Nosocomial infection,,Enterobacteriaceae,,,544,,,,X,,,,,,,,,,,1,1,third-generation cephalosporin-resistant,
+Enterobacter spp.,3,132,,,Bacteria,AMR/Nosocomial infection,,Enterobacteriaceae,,,547,,,,X,,,,,,,,,,,1,1,"carbapenem-resistant, third-generation cephalosporin-resistant",
+Orthoflavivirus kyasanurense ,3,133,Alkhumra hemorrhagic fever virus,Alkhurma virus,Virus,Biodefense/Bioterrorism,,Flaviviridae,,,3048170,,,,,X,,,,,,,,,,1,1,,Tickborne hemorrhagic fever flaviviruses
+Orthoflavivirus kyasanurense,3,134,Kyasanur Forest disease virus,Kyasanur Forest disease virus,Virus,Biodefense/Bioterrorism,,Flaviviridae,,,3048170,,,,,X,,,,,,,,,,1,1,,Tickborne encephalitis complex flaviviruses
+Orthoflavivirus omskense,3,135,Omsk hemorrhagic fever virus,Omsk hemorrhagic fever virus,Virus,Biodefense/Bioterrorism,,Flaviviridae,,,3048233,,,,,X,,,,,,,,,,1,1,,Tickborne hemorrhagic fever flaviviruses
+Orthoflavivirus powassanense,3,136,Powassan/Deer tick virus,Powassan/Deer tick virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Flaviviridae,,,3048287,,,,,X,,,,,,,,,,1,1,,"Tickborne hemorrhagic fever flaviviruses, Antiviral Program for Pandemics"
+Orthoflavivirus louisense,3,137,St. Louis encephalitis virus ,St. Louis encephalitis virus ,Virus,Biodefense/Bioterrorism,,Flaviviridae,,SLEV,3052468,,,,,X,,,,,,,,,,1,1,,Mosquito-borne viruses
+Orthoflavivirus usutuense,3,138,Usutu virus,Usutu virus,Virus,Pandemic preparedness,,Flaviviridae,,,3048443,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Orthohantavirus andesense,3,139,,Andes virus,Virus,Pandemic preparedness,,Hantaviridae,,,1980456,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Maporal orthohantavirus,3,140,Maporal virus,Maporal virus,Virus,Pandemic preparedness,,Hantaviridae,,,3052485,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Legionella pneumophila,3,141,,,Bacteria,Other,,Legionellaceae,,Legionnaires’ disease,446,,,,,,X,,,,,,,,,1,1,,
+Rubivirus rubellae,3,142,,Rubella virus,Virus,vaccine-preventable,,Matonaviridae,,Rubella,2846071,,,,,,X,,,,,,,,,1,1,,
+Morganella spp.,3,143,,,Bacteria,AMR/Nosocomial infection,,Morganellaceae,,,581,,,,X,,,,,,,,,,,1,1,third-generation cephalosporin-resistant,
+Proteus spp.,3,144,,,Bacteria,AMR/Nosocomial infection,,Morganellaceae,,,583,,,,X,,,,,,,,,,,1,1,third-generation cephalosporin-resistant,
+Simplexvirus spp.,3,145,,"Human alphaherpesvirus 1
+Human alphaherpesvirus 2",Virus,STI,STI,Orthoherpesviridae,,,10294,,,,,X,,,,,,,,,,1,1,,
+Varicellovirus humanalpha3,3,146,Human alphaherpesvirus 3,"Varicella-zoster virus,Human alphaherpesvirus 3",Virus,vaccine-preventable,,Orthoherpesviridae,,Varicella,3050294,,,,,,X,,,,,,,,,1,1,,
+Henipavirus hendraense,3,147,,Hendra virus,Virus,Biodefense/Bioterrorism,,Paramyxoviridae,,,3052223,,,,,X,,,,,,,,,,1,1,,
+Langya virus,3,148,,,Virus,Biodefense/Bioterrorism,,Paramyxoviridae,,,2971765,,,,,X,,,,,,,,,,1,1,,
+Orthobunyavirus cacheense,3,149,Cache Valley virus,Cache Valley virus,Virus,Biodefense/Bioterrorism,,Peribunyaviridae,,,3052385,,,,,X,,,,,,,,,,1,1,,Mosquito-borne viruses
+Orthobunyavirus encephalitidis,3,150,California encephalitis virus,California encephalitis virus,Virus,Biodefense/Bioterrorism,,Peribunyaviridae,,,3052390,,,,,X,,,,,,,,,,1,1,,Mosquito-borne viruses
+Orthobunyavirus lacrosseense,3,151,La Crosse virus,"LaCrosse encephalitis virus
+Bunyavirus la crosse",Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Peribunyaviridae,,LACV,3052409,,,,,X,,,,,,,,,,1,1,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Orthobunyavirus oropoucheense,3,152,Oropouche virus,Oropouche virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Peribunyaviridae,,,3052429,,,,,X,,,,,,,,,,1,1,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Bandavirus heartlandense,3,153,Heartland virus,Heartland virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Phenuiviridae,,,3051992,,,,,X,,,,,,,,,,1,1,,"Tickborne hemorrhagic fever bunyaviruses, Antiviral Program for Pandemics"
+Phlebovirus toroense,3,154,Punta Toro virus,Punta Toro virus,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Phenuiviridae,,,3052684,,,,,X,,,,,,,,,,1,1,,"Tickborne hemorrhagic fever flaviviruses, Antiviral Program for Pandemics"
+Bandavirus dabieense,3,155,Severe fever with thrombocytopenia syndrome virus ,Severe fever with thrombocytopenia syndrome virus ,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Phenuiviridae,,SFTSV,2748958,,,,,X,,,,,,,,,,1,1,,"Tickborne hemorrhagic fever bunyaviruses, Antiviral Program for Pandemics"
+Phlebovirus toscanaense,3,156,Toscana virus,Toscana virus,Virus,Pandemic preparedness,vector-borne disease,Phenuiviridae,,,3052686,,,,,,X,,,,,,,,,1,1,,
+Enterovirus A,3,157,Enterovirus A71,,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Picornaviridae,,,138948,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Enterovirus B,3,158,"Coxsackie virus B3, Echovirus E11, Echovirus E30",,Virus,Pandemic preparedness,,Picornaviridae,,,138949,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Enterovirus D,3,159,Enterovirus D68,,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Picornaviridae,,,138951,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Rhinovirus A,3,160,,,Virus,Pandemic preparedness,,Picornaviridae,,,147711,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Rhinovirus B,3,161,,,Virus,Pandemic preparedness,,Picornaviridae,,,147712,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Rhinovirus C,3,162,,,Virus,Pandemic preparedness,,Picornaviridae,,,463676,,,,,X,,,,,,,,,,1,1,,Antiviral Program for Pandemics
+Rickettsia spp.,3,163,Rickettsia prowazekii,,Bacteria,Biodefense/Bioterrorism,,Rickettsiaceae,,typhus fever,780,,,,,X,,,,,,,,,,1,1,,
+Schistosoma spp.,3,164,,,Parasite (Metazoa),Neglected Tropical Diseases,Vector-borne Disease,Schistosomatidae,,Schistosomiasis (Bilharzia),6181,,,,,X,,,,,,,,,,1,1,,
+Rotavirus spp.,3,165,,,Virus,Other,,Sedoreoviridae,,,10912,,,,,,X,,,,,,,,,1,1,,
+Eastern equine encephalitis virus ,3,166,,,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Togaviridae,,EEE,11021,,,,,X,,,,,,,,,,1,1,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Mayaro virus,3,167,,,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Togaviridae,,,59301,,,,,X,,,,,,,,,,1,1,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+O’nyong-nyong virus,3,168,,,Virus,Biodefense/Bioterrorism,,Togaviridae,,,2169701,,,,,X,,,,,,,,,,1,1,,Mosquito-borne viruses
+Sindbis virus,3,169,,,Virus,Pandemic preparedness,vector-borne disease,Togaviridae,,sindbis fever,11034,,,,,,X,,,,,,,,,1,1,,
+Western equine encephalitis virus,3,170,,,Virus,"Biodefense/Bioterrorism, Pandemic preparedness",,Togaviridae,,WEE,11039,,,,,X,,,,,,,,,,1,1,,"Mosquito-borne viruses, Antiviral Program for Pandemics"
+Trichinella spp.,3,171,,,Parasite (Metazoa),Animal disease,Zoonosis,Trichinellidae,,Trichinellosis ,6333,,,Multiple Species,,,X,,,,,,,,,1,1,,
+Serratia spp.,3,172,,,Bacteria,AMR/Nosocomial infection,,Yersiniaceae,,,613,,,,X,,,,,,,,,,,1,1,third-generation cephalosporin-resistant,
+Morbillivirus pecoris,0,173,Rinderpest morbillivirus,"Rinderpest virus, Rinderpest morbillivirus",Virus,Animal disease,,Paramyxoviridae,,,3052346,,,Multiple Species,,,,,X,,,,,,,0,0,,
+Cyvirus cyprinidallo3,0,174,Cyprinid herpesvirus 3,Koi herpesvirus (KHV) ,Virus,Animal disease,,Alloherpesviridae,,,3050271,,,Fish,,,,,X,,,,,,,0,0,,
+Tilapinevirus tilapiae,0,175,Tilapia lake virus,,Virus,Animal disease,,Amnoonviridae,,,2034996,,,Fish,,,,,X,,,,,,,0,0,,
+Candidatus Xenohaliotis californiensis,0,176,,Xenohaliotis californiensis,Bacteria,Animal disease,,Anaplasmataceae,,,84677,,,Molluscs,,,,,X,,,,,,,0,0,,
+Aparavirus tauraense   ,0,177,Taura syndrome virus,Taura syndrome virus,Virus,Animal disease,,Dicistroviridae,,,3048357,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Candidatus Hepatobacter penaei,0,178,,,Bacteria,Animal disease,,Holosporaceae,,necrotising hepatopancreatitis,1274402,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Decapod iridescent virus 1,0,179,Shrimp hemocyte iridescent virus   ,Shrimp hemocyte iridescent virus   ,Virus,Animal disease,,Iridoviridae,,,2560405,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Epizootic haematopoietic necrosis virus,0,180,,EHNV,Virus,Animal disease,,Iridoviridae,,,100217,,,Fish,,,,,X,,,,,,,0,0,,
+Ranavirus spp.,0,181,,,Virus,Animal disease,,Iridoviridae,,,10492,,,Amphibians,,,,,X,,,,,,,0,0,,
+Infectious spleen and kidney necrosis virus,0,182,Red seabream iridovirus,ISKNV,Virus,Animal disease,,Iridoviridae,,,65424,,,Fish,,,,,X,,,,,,,0,0,,
+Aurivirus haliotidmalaco1,0,183,,Haliotid herpesvirus 1 (HaHV-1),Virus,Animal disease,,Malacoherpesviridae,,,3050290,,,Molluscs,,,,,X,,,,,,,0,0,,
+Gyrodactylus salaris,0,184,,,Parasite (Metazoa),Animal disease,,Monogenea,,,37629,,,Fish,,,,,X,,,,,,,0,0,,
+White spot syndrome virus,0,185,,,Virus,Animal disease,,Nimaviridae,,,342409,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Macrobrachium rosenbergii nodavirus,0,186,,,Virus,Animal disease,,Nodaviridae,,white tail disease,222557,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Varicellovirus suidalpha1,0,187,Suid alphaherpesvirus 1,"Aujeszky’s disease (AD) virus, Suid alphaherpesvirus 1",Virus,Animal disease,,Orthoherpesviridae,,Aujeszky’s disease (AD),3050355,,,Multiple Species,,,,,X,,,,,,,0,0,,
+Infectious salmon anemia virus,0,188,Infectious salmon anemia virus,"Infectious salmon anemia virus, Salmon isavirus",Virus,Animal disease,,Orthomyxoviridae,,,55987,,,Fish,,,,,X,,,,,,,0,0,,
+Penstylhamaparvovirus decapod1,0,189,,PstDV1,Virus,Animal disease,,Parvoviridae,,Hypodermal and haematopoietic necrosis,3052615,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Foot-and-mouth disease virus,0,190,,,Virus,Animal disease,,Picornaviridae,,Foot-and-mouth disease,12110,,,Multiple Species,,,,,X,,,,,,,0,0,,
+Novirhabdovirus salmonid,0,191,Infectious hematopoietic necrosis virus,"Salmonid novirhabdovirus, Infectious hematopoietic necrosis virus",Virus,Animal disease,,Rhabdoviridae,,,1980917,,,Fish,,,,,X,,,,,,,0,0,,
+Sprivivirus cyprinus,0,192,,Spring viraemia of carp virus,Virus,Animal disease,,Rhabdoviridae,,,696863,,,Fish,,,,,X,,,,,,,0,0,,
+Novirhabdovirus piscine,0,193,Viral hemorrhagic septicemia virus,Viral hemorrhagic septicemia virus,Virus,Animal disease,,Rhabdoviridae,,,1980916,,,Fish,,,,,X,,,,,,,0,0,,
+Okavirus flavicapitis,0,194,Yellow head virus,"Gill-associated virus genotype 1, Yellow head virus",Virus,Animal disease,,Roniviridae,,,3048455,,,Crustaceans,,,,,X,,,,,,,0,0,,
+Bluetongue virus,0,195,,,Virus,Animal disease,,Sedoreoviridae,,bluetongue ,40051,,,Multiple Species,,,,,X,,,,,,,0,0,,
+Epizootic hemorrhagic disease virus,0,196,,,Virus,Animal disease,,Sedoreoviridae,,epizootic hemorrhagic disease (EHD),40054,,,Multiple Species,,,,,X,,,,,,,0,0,,
+Salmonid alphavirus,0,197,,SAV,Virus,Animal disease,,Togaviridae,,,3349490,,,Fish,,,,,X,,,,,,,0,0,,
+Penaeid shrimp infectious myonecrosis virus,0,198,,,Virus,Animal disease,,Totiviridae,,,282786,,,Crustaceans,,,,,X,,,,,,,0,0,,
