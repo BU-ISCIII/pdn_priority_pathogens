@@ -7,6 +7,7 @@ This repository is part of the [PDN (Pathogen Data Network)](https://pathogendat
 * Aggregate pathogen prioritization lists from leading public health and research organizations.
 * Provide a unified reference with consistent taxonomy and annotation.
 * Support pathogen surveillance, pandemic preparedness, and biosecurity efforts.
+* Make prioritization data **machine-readable**, as many official lists are only available in formats (PDFs or websites) that are not readily accessible for automated analysis.
 
 ## Methodology
 
@@ -31,7 +32,7 @@ The prioritization list integrates information from international and national a
 
 > You can consult the [live Google Sheet](https://docs.google.com/spreadsheets/d/1nrG329whDaeVv8BpocWUuSc-lgv-TJVf6RIxW3Bd8jg/edit?usp=sharing) used for this repository.
 
-## 🔍 Priority Type Classification
+## Priority Type Classification
 
 Each pathogen is categorized into one or more "priority types", based on its inclusion in the above lists. These allow grouping pathogens by relevance across thematic areas.
 
@@ -50,7 +51,7 @@ Each pathogen is categorized into one or more "priority types", based on its inc
 
 > Pathogens may belong to multiple categories simultaneously.
 
-## 📂 Outputs
+## Outputs
 
 * `patogenos_prioritarios.csv`: Tabular data extracted from the source.
 * `patogenos_prioritarios.json`: Structured version with:
@@ -59,6 +60,22 @@ Each pathogen is categorized into one or more "priority types", based on its inc
   * `Priority type` and `prioritized_by`
   * Appearance counters and taxonomy ID
 
-## ⚙️ Updating
+## Updating
 
 Run the script `generate_pathogens_list.py` to pull the latest data and regenerate the files from the live Google Sheet.
+
+### Example usage
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the script:
+
+```bash
+python generate_pathogens_list.py
+```
+
+This will generate updated `.csv` and `.json` files based on the latest content in the linked Google Sheet.
