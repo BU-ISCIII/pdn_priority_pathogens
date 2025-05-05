@@ -42,10 +42,11 @@ def compute_score(entry):
         The score is an integer value that represents the priority of the pathogen.
     """
     # Compute the score based on the attributes of the pathogen
-    appearances = entry.get("Number of appearances (WHO, NIAID, ECDC)", 0)
+    appearances1 = entry.get("Number of appearances (WHO, NIAID, ECDC)", 0)
+    appearances2 = entry.get("Number of appearances (WHO, NIAID, ECDC, AFRICACDC)", 0)
     priority_types = entry.get("Number of priority lists", 0)
     wastewater = 1 if str(entry.get("WasteWater", "")).strip().lower() == "yes" else 0
-    base = appearances * 1 + priority_types * 2 + wastewater * 1
+    base = appearances1 * 1 + appearances2 * 2 + priority_types * 1 + wastewater * 1
     if entry.get("Pathogen Type") == "Fungi":
         base += 3
     elif entry.get("Pathogen Type") == "Parasite (Protozoa)":
@@ -229,6 +230,28 @@ def apply_inclusion_criteria(entry):
 
 
 def add_scoring(entry):
+    """Add scoring to the pathogen entry based on its attributes.
+
+    Parameters
+    ----------
+    entry
+        dict
+            A dictionary representing a pathogen entry from the Google Sheet.
+            The dictionary contains the following keys:
+            - "Number of appearances (WHO, NIAID, ECDC)"
+            - "Number of priority lists"
+            - "WasteWater"
+            - "Pathogen Type"
+
+    Returns
+    -------
+    dict
+        The input dictionary with additional keys:
+        - "Priority score (computed)"
+        - "Highest priority"
+        The "Priority score (computed)" key contains the computed score of the pathogen.
+        The "Highest priority" key is a boolean indicating if the score is greater than or equal to 12.
+    """
     score = compute_score(entry)
     entry["Priority score (computed)"] = score
     entry["Highest priority"] = score >= 12
