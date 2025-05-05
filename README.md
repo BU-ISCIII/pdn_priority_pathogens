@@ -2,21 +2,35 @@
 
 This repository is part of the [PDN (Pathogen Data Network)](https://pathogendatanetwork.org/) initiative and contains a curated, updatable list of priority pathogens. The aim is to centralize information from various international organizations and establish a harmonized and structured reference list for research and public health decision-making.
 
+- [🦠 PDN Priority Pathogens List](#-pdn-priority-pathogens-list)
+  - [Objectives](#objectives)
+  - [Methodology](#methodology)
+    - [Taxonomic standardization](#taxonomic-standardization)
+    - [Data sources](#data-sources)
+  - [Priority Type Classification](#priority-type-classification)
+    - [Prioritization logic](#prioritization-logic)
+      - [Score and ranking](#score-and-ranking)
+      - [Inclusion criteria](#inclusion-criteria)
+      - [PDN final selection](#pdn-final-selection)
+  - [Outputs](#outputs)
+  - [Updating](#updating)
+    - [Example usage](#example-usage)
+
 ## Objectives
 
-* Aggregate pathogen prioritization lists from leading public health and research organizations.
-* Provide a unified reference with consistent taxonomy and annotation.
-* Support pathogen surveillance, pandemic preparedness, and biosecurity efforts.
-* Make prioritization data **machine-readable**, as many official lists are only available in formats (PDFs or websites) that are not readily accessible for automated analysis.
+- Aggregate pathogen prioritization lists from leading public health and research organizations.
+- Provide a unified reference with consistent taxonomy and annotation.
+- Support pathogen surveillance, pandemic preparedness, and biosecurity efforts.
+- Make prioritization data machine-readable, as many official lists are only available in formats (PDFs or websites) that are not readily accessible for automated analysis.
 
 ## Methodology
 
 ### Taxonomic standardization
 
-* Pathogens are named using scientific **species names** whenever possible.
-* When species-level resolution is not feasible, the **genus name** is used.
-* Viral naming follows **ICTV (International Committee on Taxonomy of Viruses)** recommendations.
-* Additional or common names are listed under the `Also known as` field.
+- Pathogens are named using scientific species names whenever possible.
+- When species-level resolution is not feasible, the genus name is used.
+- Viral naming follows ICTV (International Committee on Taxonomy of Viruses) recommendations.
+- Additional or common names are listed under the `Also known as` field.
 
 ### Data sources
 
@@ -38,7 +52,7 @@ Each pathogen is categorized into one or more "priority types", based on its inc
 
 **Unique priority types used:**
 
-```
+```text
 - Pandemic preparedness
 - Biodefense/Bioterrorism
 - vaccine-preventable
@@ -51,14 +65,40 @@ Each pathogen is categorized into one or more "priority types", based on its inc
 
 > Pathogens may belong to multiple categories simultaneously.
 
+### Prioritization logic
+
+#### Score and ranking
+
+Each pathogen is assigned a composite priority score, calculated based on:
+
+- Number of appearances in key organizational lists (×1)
+- Number of different priority types associated with the pathogen (×2)
+- Whether the pathogen has been detected in wastewater monitoring systems (×1)
+- Additional points are added to fungal pathogens (+3) and protozoan parasites (+4) to adjust for underrepresentation.
+
+The complete scored list is available in complete\_priority\_pathogens.json, where pathogens are ordered by descending priority score.
+
+#### Inclusion criteria
+
+- Included if the pathogen appears in at least **two of the following global health agency lists**: WHO, NIAID, ECDC.
+  - Note: Fungal pathogens are only prioritized by WHO and NIAID and are not present in ECDC or Africa CDC lists.
+- Additionally, the pathogen must be listed under at least **two distinct priority types** (e.g., Pandemic preparedness and Biodefense/Bioterrorism).
+
+#### PDN final selection
+
+The final selection in file `pdn_priority_list.json` is derived from the full list using the inclusion criteria described above.
+
+- A total of **50 pathogens** from **33 families** were retained after filtering.
+- A subset of **26 pathogens** is selected for PDN priority consideration with a **priority score ≥ 12** are marked as "highest priority" to ensure balanced representation across pathogen types: bacteria, viruses, fungi, and protozoa.
+
 ## Outputs
 
-* `patogenos_prioritarios.csv`: Tabular data extracted from the source.
-* `patogenos_prioritarios.json`: Structured version with:
+- `patogenos_prioritarios.csv`: Tabular data extracted from the source.
+- `patogenos_prioritarios.json`: Structured version with:
 
-  * Harmonized taxonomy and metadata
-  * `Priority type` and `prioritized_by`
-  * Appearance counters and taxonomy ID
+  - Harmonized taxonomy and metadata
+  - `Priority type` and `prioritized_by`
+  - Appearance counters and taxonomy ID
 
 ## Updating
 
