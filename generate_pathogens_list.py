@@ -185,13 +185,17 @@ def transform_pathogen_row(row, priority_sources):
                 "Number of priority lists",
                 "Number of appearances (WHO, NIAD, ECDC)",
                 "Number of appearances (WHO, NIAD, ECDC, AFRICACDC)",
+                "Priority order",
+                "Priority score",
             ]
             and pd.notna(val)
             and str(val).strip()
         ):
             entry[col] = val
     entry["prioritized_by"] = prioritized_by
-    entry["Number of priority lists"] = len(entry.get("Priority type", []))
+    entry["Number of priority lists"] = sum(
+        1 for p in entry.get("Priority type", []) if p != "Animal disease"
+    )
     entry["Number of appearances (WHO, NIAID, ECDC)"] = sum(
         1 for x in ["WHO", "NIAID", "ECDC"] if x in prioritized_by
     )
@@ -221,7 +225,6 @@ def apply_inclusion_criteria(entry):
         The inclusion criteria are as follows:
         - The pathogen must be prioritized by at least 2 organizations (WHO, NIAID, ECDC)
         - The pathogen must be listed in at least 2 priority lists
-        - If the pathogen is a fungus, it must be prioritized by at least 2 organizations (WHO, NIAID)
     """
     n_appearances = entry.get("Number of appearances (WHO, NIAID, ECDC)", 0)
     n_priority_types = entry.get("Number of priority lists", 0)
@@ -253,9 +256,30 @@ def add_scoring(entry):
         The "Highest priority" key is a boolean indicating if the score is greater than or equal to 12.
     """
     score = compute_score(entry)
-    entry["Priority score (computed)"] = score
+    entry["Priority score"] = score
     entry["Highest priority"] = score >= 12
     return entry
+
+
+def assign_priority_order(taxa, score_field="Priority score (computed)"):
+    """Assign a priority order based on the score field.
+
+    Parameters
+    ----------
+    taxa : list of dict
+        The list of pathogen entries.
+    score_field : str
+        The key to use for sorting entries (default: Priority score (computed)).
+
+    Returns
+    -------
+    list of dict
+        The same list, with each entry updated with a new key: Priority order (computed).
+    """
+    sorted_taxa = sorted(taxa, key=lambda x: x.get(score_field, 0), reverse=True)
+    for i, entry in enumerate(sorted_taxa, start=1):
+        entry["Priority order"] = i
+    return sorted_taxa
 
 
 def main():
@@ -267,8 +291,8 @@ def main():
     priority_sources = active_orgs["Acronym"].dropna().drop_duplicates().tolist()
     source_urls = build_source_urls(active_orgs)
 
-    json_output = {
-        "full_name": "PDN Pathogen Priority List",
+    complete_json = {
+        "full_name": "Complete Pathogen Priority List",
         "source_urls": source_urls,
         "last_updated": datetime.now().strftime("%Y-%m-%d"),
         "taxa": [],
@@ -277,19 +301,29 @@ def main():
     for _, row in patho_df.iterrows():
         entry = transform_pathogen_row(row, priority_sources)
         entry = add_scoring(entry)
-        json_output["taxa"].append(entry)
+        complete_json["taxa"].append(entry)
 
     # Write complete list
     os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
     patho_df.to_csv(CSV_PATH, index=False)
+
+    complete_json["taxa"] = assign_priority_order(complete_json["taxa"])
     with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(json_output, f, indent=2, ensure_ascii=False)
+        json.dump(complete_json, f, indent=2, ensure_ascii=False)
 
     # Apply inclusion criteria
-    pdn_taxa = [e for e in json_output["taxa"] if apply_inclusion_criteria(e)]
+    pdn_taxa = [e for e in complete_json["taxa"] if apply_inclusion_criteria(e)]
+    pdn_taxa = assign_priority_order(pdn_taxa)
 
+    pdn_json = {
+        "full_name": "PDN Pathogen Priority List",
+        "source_urls": source_urls,
+        "last_updated": datetime.now().strftime("%Y-%m-%d"),
+        "taxa": [],
+    }
+    pdn_json["taxa"] = pdn_taxa
     with open(PDN_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump({"taxa": pdn_taxa}, f, indent=2, ensure_ascii=False)
+        json.dump(pdn_json, f, indent=2, ensure_ascii=False)
 
     print(f"✅ CSV saved to {CSV_PATH}")
     print(f"✅ JSON saved to {JSON_PATH}")
