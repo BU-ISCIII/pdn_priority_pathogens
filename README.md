@@ -1,6 +1,6 @@
 # 🦠 PDN Priority Pathogens List
 
-This repository is part of the [PDN (Pathogen Data Network)]([https://...](https://pathogendatanetwork.org/)) initiative and contains a curated, updatable list of priority pathogens. The aim is to centralize information from various international organizations and establish a harmonized and structured reference list for research and public health decision-making.
+This repository is part of the [PDN (Pathogen Data Network)](https://pathogendatanetwork.org/) initiative and contains a curated, updatable list of priority pathogens. The aim is to centralize information from various international organizations and establish a harmonized and structured reference list for research and public health decision-making.
 
 ## Objectives
 
