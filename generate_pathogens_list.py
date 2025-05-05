@@ -31,19 +31,16 @@ org_df = get_as_dataframe(org_ws).dropna(how="all")
 
 # Get active organizations only
 active_orgs = org_df[org_df["Added?"] == 1]
-# Remove duplicates based on Acronym
-# Note: This assumes that the Acronym column is unique for each organization
-deduplicated_orgs = active_orgs.drop_duplicates(subset="Acronym", keep="first")
-
+import pdb; pdb.set_trace()
 # Build priority_sources list and source_urls dict
 priority_sources = active_orgs["Acronym"].dropna().tolist()
 
 source_urls = {
     row["Acronym"]: row["url list"]
-    for _, row in deduplicated_orgs.iterrows()
+    for _, row in active_orgs.iterrows()
     if pd.notna(row["Acronym"]) and pd.notna(row["url list"])
 }
-priority_sources = deduplicated_orgs["Acronym"].dropna().tolist()
+priority_sources = active_orgs["Acronym"].dropna().drop_duplicates().tolist()
 
 # --- Build JSON structure ---
 json_output = {
