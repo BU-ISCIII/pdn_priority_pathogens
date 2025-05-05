@@ -9,9 +9,9 @@ This repository is part of the [PDN (Pathogen Data Network)](https://pathogendat
     - [Data sources](#data-sources)
   - [Priority Type Classification](#priority-type-classification)
     - [Prioritization logic](#prioritization-logic)
-      - [Score and ranking](#score-and-ranking)
       - [Inclusion criteria](#inclusion-criteria)
-      - [PDN final selection](#pdn-final-selection)
+      - [Score and ranking](#score-and-ranking)
+      - [Final selection](#final-selection)
   - [Outputs](#outputs)
   - [Updating](#updating)
     - [Example usage](#example-usage)
@@ -50,9 +50,9 @@ The prioritization list integrates information from international and national a
 
 Each pathogen is categorized into one or more "priority types", based on its inclusion in the above lists. These allow grouping pathogens by relevance across thematic areas.
 
-**Unique priority types used:**
+Unique priority types used:
 
-```text
+```
 - Pandemic preparedness
 - Biodefense/Bioterrorism
 - vaccine-preventable
@@ -67,42 +67,53 @@ Each pathogen is categorized into one or more "priority types", based on its inc
 
 ### Prioritization logic
 
-#### Score and ranking
-
-Each pathogen is assigned a composite priority score, calculated based on:
-
-- Number of appearances in key organizational lists (×1)
-- Number of different priority types associated with the pathogen (×2)
-- Whether the pathogen has been detected in wastewater monitoring systems (×1)
-- Additional points are added to fungal pathogens (+3) and protozoan parasites (+4) to adjust for underrepresentation.
-
-The complete scored list is available in complete\_priority\_pathogens.json, where pathogens are ordered by descending priority score.
-
 #### Inclusion criteria
 
-- Included if the pathogen appears in at least **two of the following global health agency lists**: WHO, NIAID, ECDC.
+- Included if the pathogen appears in at least --two of the following global health agency lists--: WHO, NIAID, ECDC.
+
   - Note: Fungal pathogens are only prioritized by WHO and NIAID and are not present in ECDC or Africa CDC lists.
-- Additionally, the pathogen must be listed under at least **two distinct priority types** (e.g., Pandemic preparedness and Biodefense/Bioterrorism).
+- Additionally, the pathogen must be listed under at least --two distinct priority categories--, excluding "Animal disease".
 
-#### PDN final selection
+#### Score and ranking
 
-The final selection in file `pdn_priority_list.json` is derived from the full list using the inclusion criteria described above.
+Each pathogen is assigned a composite --priority score--, calculated based on:
 
-- A total of **50 pathogens** from **33 families** were retained after filtering.
-- A subset of **26 pathogens** is selected for PDN priority consideration with a **priority score ≥ 12** are marked as "highest priority" to ensure balanced representation across pathogen types: bacteria, viruses, fungi, and protozoa.
+- Number of appearances in key organizational lists (WHO, NIAID, ECDC) ×1
+- Number of appearances in broader organizational sets (WHO, NIAID, ECDC, AFRICACDC) ×2
+- Number of different priority types (excluding "Animal disease") ×1
+- Whether the pathogen has been detected in wastewater monitoring ×1
+- Additional adjustment for underepresentation:
+
+  - Fungi: +3
+  - Protozoan parasites: +4
+
+This score is stored in the field `Priority score`.
+
+The full ranked list is available in `complete_priority_pathogens.json`, including the computed priority score and the derived `Priority order`.
+
+#### Final selection
+
+- A total of --50 pathogens-- from --33 families-- were retained after filtering.
+- From this list, a subset of --26 pathogens-- is selected for PDN priority consideration, based on the inclusion criteria.
+- Pathogens with a --priority score ≥ 12-- are marked with `Highest priority: true`.
 
 ## Outputs
 
-- `patogenos_prioritarios.csv`: Tabular data extracted from the source.
-- `patogenos_prioritarios.json`: Structured version with:
+- `complete_priority_pathogens.csv`: Raw data table from the Google Sheet.
+- `complete_priority_pathogens.json`: Full list with all processed entries and scores.
+- `pdn_priority_pathogens.json`: Subset of 26 priority pathogens, filtered by inclusion criteria.
 
-  - Harmonized taxonomy and metadata
-  - `Priority type` and `prioritized_by`
-  - Appearance counters and taxonomy ID
+Each pathogen entry includes:
+
+- `Priority type` (as list)
+- `prioritized_by` (list of sources)
+- `Priority scored`
+- `Priority order`
+- `Highest priority` (boolean)
 
 ## Updating
 
-Run the script `generate_pathogens_list.py` to pull the latest data and regenerate the files from the live Google Sheet.
+Run the script `generate_pathogens_list.py` to pull the latest data and regenerate all outputs.
 
 ### Example usage
 
@@ -118,4 +129,4 @@ pip install -r requirements.txt
 python generate_pathogens_list.py
 ```
 
-This will generate updated `.csv` and `.json` files based on the latest content in the linked Google Sheet.
+This will generate the updated `.csv` and `.json` files based on the current Google Sheet data.
