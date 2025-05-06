@@ -101,7 +101,7 @@ The full ranked list is available in `complete_priority_pathogens.json`, includi
 
 - `complete_priority_pathogens.csv`: Raw data table from the Google Sheet.
 - `complete_priority_pathogens.json`: Full list with all processed entries and scores.
-- `pdn_priority_pathogens.json`: Subset of 26 priority pathogens, filtered by inclusion criteria.
+- `pdn_priority_pathogens.json`: Subset of 50 priority pathogens, filtered by inclusion criteria.
 
 Each pathogen entry includes:
 
