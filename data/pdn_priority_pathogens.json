@@ -25,1205 +25,1206 @@
       "https://www.cdc.gov/antimicrobial-resistance/media/pdfs/antimicrobial-resistance-threats-update-2022-508.pdf"
     ]
   },
-  "last_updated": "2025-05-05",
+  "last_updated": "2025-05-09",
+  "expected_number_of_taxa": 50,
   "taxa": [
     {
-      "Pathogen": "Vibrio Cholerae",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Vibrio Cholerae",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Disease Type": "Water-borne Disease",
-      "Family": "Vibrionaceae ",
-      "Priority": "High Priority Group",
-      "Disease": "cholera",
+      "disease_type": "Water-borne Disease",
+      "family": "Vibrionaceae ",
+      "priority": "High Priority Group",
+      "disease": "cholera",
       "taxids": 127906,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 14,
-      "Highest priority": true,
-      "Priority order": 1
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 14,
+      "highest_priority": true,
+      "priority_order": 1
     },
     {
-      "Pathogen": "Orthoebolavirus sudanense",
-      "Also known as": "Ebolavirus sudan",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthoebolavirus sudanense",
+      "also_known_as": "Ebolavirus sudan",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Disease Type": "Viral haemorrhagic Fever",
-      "Family": "Filoviridae",
-      "Priority": "Critical Priority Group",
-      "Disease": "Ebola",
+      "disease_type": "Viral haemorrhagic Fever",
+      "family": "Filoviridae",
+      "priority": "Critical Priority Group",
+      "disease": "Ebola",
       "taxids": 3052462,
-      "NIAID Notes": "Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 14,
-      "Highest priority": true,
-      "Priority order": 2
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 14,
+      "highest_priority": true,
+      "priority_order": 2
     },
     {
-      "Pathogen": "Orthoebolavirus zairense",
-      "Also known as": "Ebolavirus zaire",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthoebolavirus zairense",
+      "also_known_as": "Ebolavirus zaire",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Disease Type": "Viral haemorrhagic Fever, Ebola",
-      "Family": "Filoviridae",
-      "Priority": "Critical Priority Group",
-      "Disease": "Ebola",
+      "disease_type": "Viral haemorrhagic Fever, Ebola",
+      "family": "Filoviridae",
+      "priority": "Critical Priority Group",
+      "disease": "Ebola",
       "taxids": 3052460,
-      "NIAID Notes": "Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 14,
-      "Highest priority": true,
-      "Priority order": 3
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 14,
+      "highest_priority": true,
+      "priority_order": 3
     },
     {
-      "Pathogen": "Orthomarburgvirus marburgense",
-      "Also known as": "Marburg virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthomarburgvirus marburgense",
+      "also_known_as": "Marburg virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Disease Type": "Viral haemorrhagic Fever",
-      "Family": "Filoviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Marburg fever",
+      "disease_type": "Viral haemorrhagic Fever",
+      "family": "Filoviridae",
+      "priority": "High Priority Group",
+      "disease": "Marburg fever",
       "taxids": 186537,
-      "NIAID Notes": "Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Viral hemorrhagic fevers (filoviruses), Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 14,
-      "Highest priority": true,
-      "Priority order": 4
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 14,
+      "highest_priority": true,
+      "priority_order": 4
     },
     {
-      "Pathogen": "Orthoflavivirus denguei",
-      "Pathogen subtypes/names": "Dengue virus",
-      "Also known as": "Dengue virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthoflavivirus denguei",
+      "pathogen_subtypesnames": "Dengue virus",
+      "also_known_as": "Dengue virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Disease Type": "Vector-borne Disease",
-      "Family": "Flaviviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Dengue fever",
+      "disease_type": "Vector-borne Disease",
+      "family": "Flaviviridae",
+      "priority": "High Priority Group",
+      "disease": "Dengue fever",
       "taxids": 3052464,
-      "NIAID Notes": "Viral hemorrhagic fevers (flaviviruses), Antiviral Program for Pandemics",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Viral hemorrhagic fevers (flaviviruses), Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 14,
-      "Highest priority": true,
-      "Priority order": 5
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 14,
+      "highest_priority": true,
+      "priority_order": 5
     },
     {
-      "Pathogen": "Enterovirus C",
-      "Pathogen subtypes/names": "Poliovirus",
-      "Also known as": "Enterovirus coxsackiepol",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Enterovirus C",
+      "pathogen_subtypesnames": "Poliovirus",
+      "also_known_as": "Enterovirus coxsackiepol",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Disease Type": "Vaccine-Preventable Disease",
-      "Family": "Picornaviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Poliomyelitus, Polio",
+      "disease_type": "Vaccine-Preventable Disease",
+      "family": "Picornaviridae",
+      "priority": "High Priority Group",
+      "disease": "Poliomyelitus, Polio",
       "taxids": 138950,
-      "NIAID Notes": "Antiviral Program for Pandemics",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 14,
-      "Highest priority": true,
-      "Priority order": 6
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 14,
+      "highest_priority": true,
+      "priority_order": 6
     },
     {
-      "Pathogen": "Mammarenavirus lassaense",
-      "Also known as": "Lassa virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Mammarenavirus lassaense",
+      "also_known_as": "Lassa virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism"
       ],
-      "Disease Type": "Zoonosis",
-      "Family": "Arenaviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Lassa fever",
+      "disease_type": "Zoonosis",
+      "family": "Arenaviridae",
+      "priority": "High Priority Group",
+      "disease": "Lassa fever",
       "taxids": 3052310,
-      "NIAID Notes": "Viral hemorrhagic fevers (arenaviruses), Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Viral hemorrhagic fevers (arenaviruses), Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 13,
-      "Highest priority": true,
-      "Priority order": 7
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 13,
+      "highest_priority": true,
+      "priority_order": 7
     },
     {
-      "Pathogen": "Severe acute respiratory syndrome-related coronavirus",
-      "Pathogen subtypes/names": "SARS-CoV-2",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Severe acute respiratory syndrome-related coronavirus",
+      "pathogen_subtypesnames": "SARS-CoV-2",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Disease Type": "SARS, COVID-19",
-      "Family": "Coronaviridae",
+      "disease_type": "SARS, COVID-19",
+      "family": "Coronaviridae",
       "taxids": 694009,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 13,
-      "Highest priority": true,
-      "Priority order": 8
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 13,
+      "highest_priority": true,
+      "priority_order": 8
     },
     {
-      "Pathogen": "Orthoflavivirus flavi ",
-      "Pathogen subtypes/names": "Yellow fever virus",
-      "Also known as": "Yellow fever virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthoflavivirus flavi ",
+      "pathogen_subtypesnames": "Yellow fever virus",
+      "also_known_as": "Yellow fever virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness"
       ],
-      "Disease Type": "Vector-borne Disease",
-      "Family": "Flaviviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Yellow Fever",
+      "disease_type": "Vector-borne Disease",
+      "family": "Flaviviridae",
+      "priority": "High Priority Group",
+      "disease": "Yellow Fever",
       "taxids": 3046277,
-      "NIAID Notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 13,
-      "Highest priority": true,
-      "Priority order": 9
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 13,
+      "highest_priority": true,
+      "priority_order": 9
     },
     {
-      "Pathogen": "Orthonairovirus haemorrhagiae",
-      "Also known as": "Crimean Congo Haemorrhagic Fever virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthonairovirus haemorrhagiae",
+      "also_known_as": "Crimean Congo Haemorrhagic Fever virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism"
       ],
-      "Disease Type": "Viral haemorrhagic Fever",
-      "Family": "Nairoviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Crimean Congo Haemorrhagic Fever (CCHF)",
+      "disease_type": "Viral haemorrhagic Fever",
+      "family": "Nairoviridae",
+      "priority": "High Priority Group",
+      "disease": "Crimean Congo Haemorrhagic Fever (CCHF)",
       "taxids": 3052518,
-      "NIAID Notes": "Viral hemorrhagic fevers (bunyaviruses), Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Viral hemorrhagic fevers (bunyaviruses), Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 13,
-      "Highest priority": true,
-      "Priority order": 10
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 13,
+      "highest_priority": true,
+      "priority_order": 10
     },
     {
-      "Pathogen": "Monkeypox virus",
-      "Also known as": "MPXV, Mpox virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Monkeypox virus",
+      "also_known_as": "MPXV, Mpox virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "STI"
       ],
-      "Disease Type": "Zoonosis",
-      "Family": "Poxviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Mpox",
+      "disease_type": "Zoonosis",
+      "family": "Poxviridae",
+      "priority": "High Priority Group",
+      "disease": "Mpox",
       "taxids": 10244,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 13,
-      "Highest priority": true,
-      "Priority order": 11
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 13,
+      "highest_priority": true,
+      "priority_order": 11
     },
     {
-      "Pathogen": "Chikungunya virus",
-      "Also known as": "Alphavirus chikungunya",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Chikungunya virus",
+      "also_known_as": "Alphavirus chikungunya",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness"
       ],
-      "Disease Type": "Vector-borne Disease",
-      "Family": "Togaviridae",
-      "Priority": "Medium Priority Group",
-      "Disease": "chikungunya",
+      "disease_type": "Vector-borne Disease",
+      "family": "Togaviridae",
+      "priority": "Medium Priority Group",
+      "disease": "chikungunya",
       "taxids": 37124,
-      "NIAID Notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 13,
-      "Highest priority": true,
-      "Priority order": 12
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 13,
+      "highest_priority": true,
+      "priority_order": 12
     },
     {
-      "Pathogen": "Yersinia Pestis ",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Yersinia Pestis ",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism"
       ],
-      "Disease Type": "Zoonosis",
-      "Family": "Yersiniaceae",
-      "Priority": "High Priority Group",
-      "Disease": "Plague",
+      "disease_type": "Zoonosis",
+      "family": "Yersiniaceae",
+      "priority": "High Priority Group",
+      "disease": "Plague",
       "taxids": 632,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 4,
-      "Priority score": 13,
-      "Highest priority": true,
-      "Priority order": 13
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 4,
+      "priority_score": 13,
+      "highest_priority": true,
+      "priority_order": 13
     },
     {
-      "Pathogen": "Coccidioides spp.",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Coccidioides spp.",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Onygenaceae",
+      "family": "Onygenaceae",
       "taxids": 5500,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 14
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 14
     },
     {
-      "Pathogen": "Plasmodium spp.",
-      "Pathogen Type": "Parasite (Protozoa)",
-      "Priority type": [
+      "pathogen": "Plasmodium spp.",
+      "pathogen_type": "Parasite (Protozoa)",
+      "priority_type": [
         "Other",
         "vaccine-preventable"
       ],
-      "Disease Type": "vector-borne disease",
-      "Family": "Plasmodiidae",
-      "Disease": "Malaria",
+      "disease_type": "vector-borne disease",
+      "family": "Plasmodiidae",
+      "disease": "Malaria",
       "taxids": 5820,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 15
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 15
     },
     {
-      "Pathogen": "Mucorales order",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Mucorales order",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness",
         "Biodefense/Bioterrorism"
       ],
-      "Priority": "High Priority Group",
+      "priority": "High Priority Group",
       "taxids": 4827,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 16
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 16
     },
     {
-      "Pathogen": "Mycobacterium tuberculosis",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Mycobacterium tuberculosis",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Animal disease",
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Family": "Mycobacteriaceae",
-      "Disease": "Tuberculosis",
+      "family": "Mycobacteriaceae",
+      "disease": "Tuberculosis",
       "taxids": 1773,
-      "Afecting species": "Multiple Species",
-      "Notes": "rifampicin-resistant, Multidrug-resistant (MDR)",
+      "afecting_species": "Multiple Species",
+      "number_of_priority_lists": 3,
+      "notes": "rifampicin-resistant, Multidrug-resistant (MDR)",
       "prioritized_by": [
         "WOAH",
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 17
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 17
     },
     {
-      "Pathogen": "Shigella spp.",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Shigella spp.",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Enterobacteriaceae",
-      "Disease": "Shigellosis",
+      "family": "Enterobacteriaceae",
+      "disease": "Shigellosis",
       "taxids": 620,
-      "Notes": "fluoroquinolone-resistant",
-      "NIAID Notes": "Food- and/or waterborne pathogen",
+      "number_of_priority_lists": 3,
+      "notes": "fluoroquinolone-resistant",
+      "niaid_notes": "Food- and/or waterborne pathogen",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 18
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 18
     },
     {
-      "Pathogen": "Orthoflavivirus zikaense",
-      "Pathogen subtypes/names": "Zika virus",
-      "Also known as": "Zika virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthoflavivirus zikaense",
+      "pathogen_subtypesnames": "Zika virus",
+      "also_known_as": "Zika virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Disease Type": "Vector-borne Disease",
-      "Family": "Flaviviridae",
+      "disease_type": "Vector-borne Disease",
+      "family": "Flaviviridae",
       "taxids": 3048459,
-      "NIAID Notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 19
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 19
     },
     {
-      "Pathogen": "Alphainfluenzavirus influenzae",
-      "Pathogen subtypes/names": "Alphainfluenzavirus influenzae H1, H3\nAlphainfluenzavirus influenzae H2\nAlphainfluenzavirus influenzae H5, H6, H7, H10 (avian origin)",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Alphainfluenzavirus influenzae",
+      "pathogen_subtypesnames": "Alphainfluenzavirus influenzae H1, H3\nAlphainfluenzavirus influenzae H2\nAlphainfluenzavirus influenzae H5, H6, H7, H10 (avian origin)",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Family": "Orthomyxoviridae",
+      "family": "Orthomyxoviridae",
       "taxids": 2955291,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 20
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 20
     },
     {
-      "Pathogen": "Variola virus",
-      "Also known as": "Small pox virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Variola virus",
+      "also_known_as": "Small pox virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Disease Type": "Smallpox, variola minor",
-      "Family": "Poxviridae",
+      "disease_type": "Smallpox, variola minor",
+      "family": "Poxviridae",
       "taxids": 10255,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 21
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 21
     },
     {
-      "Pathogen": "Human immunodeficiency virus 1",
-      "Also known as": "HIV",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Human immunodeficiency virus 1",
+      "also_known_as": "HIV",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "STI",
         "vaccine-preventable",
         "Pandemic preparedness"
       ],
-      "Disease Type": "STI",
-      "Family": "Retroviridae",
-      "Disease": "acquired immune deficiency syndrome (AIDS)",
+      "disease_type": "STI",
+      "family": "Retroviridae",
+      "disease": "acquired immune deficiency syndrome (AIDS)",
       "taxids": 11676,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 12,
-      "Highest priority": true,
-      "Priority order": 22
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 12,
+      "highest_priority": true,
+      "priority_order": 22
     },
     {
-      "Pathogen": "Candidozyma auris",
-      "Also known as": "Candida auris",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Candidozyma auris",
+      "also_known_as": "Candida auris",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Metschnikowiaceae",
-      "Priority": "Critical Priority Group",
+      "family": "Metschnikowiaceae",
+      "priority": "Critical Priority Group",
       "taxids": 498019,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "WHO",
         "CDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 23
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 23
     },
     {
-      "Pathogen": "Aspergillus fumigatus",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Aspergillus fumigatus",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Aspergillaceae",
-      "Priority": "Critical Priority Group",
+      "family": "Aspergillaceae",
+      "priority": "Critical Priority Group",
       "taxids": 746128,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 24
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 24
     },
     {
-      "Pathogen": "Candida albicans",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Candida albicans",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Debaryomycetaceae ",
-      "Priority": "Critical Priority Group",
+      "family": "Debaryomycetaceae ",
+      "priority": "Critical Priority Group",
       "taxids": 5476,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 25
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 25
     },
     {
-      "Pathogen": "Candida parapsilosis",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Candida parapsilosis",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Debaryomycetaceae ",
-      "Priority": "High Priority Group",
+      "family": "Debaryomycetaceae ",
+      "priority": "High Priority Group",
       "taxids": 5480,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 26
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 26
     },
     {
-      "Pathogen": "Candida tropicalis",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Candida tropicalis",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Debaryomycetaceae ",
-      "Priority": "High Priority Group",
+      "family": "Debaryomycetaceae ",
+      "priority": "High Priority Group",
       "taxids": 5482,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 27
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 27
     },
     {
-      "Pathogen": "Nakaseomyces glabratus",
-      "Also known as": "Candida glabrata",
-      "Pathogen Type": "Fungi",
-      "Priority type": [
+      "pathogen": "Nakaseomyces glabratus",
+      "also_known_as": "Candida glabrata",
+      "pathogen_type": "Fungi",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Saccharomycetaceae ",
-      "Priority": "High Priority Group",
+      "family": "Saccharomycetaceae ",
+      "priority": "High Priority Group",
       "taxids": 5478,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 28
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 28
     },
     {
-      "Pathogen": "Orthohantavirus hantanense",
-      "Also known as": "Korean hemorrhagic fever virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthohantavirus hantanense",
+      "also_known_as": "Korean hemorrhagic fever virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism"
       ],
-      "Disease Type": "Hantavirus pulmonary syndrome",
-      "Family": "Hantaviridae",
+      "disease_type": "Hantavirus pulmonary syndrome",
+      "family": "Hantaviridae",
       "taxids": 3052480,
-      "NIAID Notes": "Viral hemorrhagic fevers (bunyaviruses)",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Viral hemorrhagic fevers (bunyaviruses)",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 29
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 29
     },
     {
-      "Pathogen": "Neisseria gonorrhoeae",
-      "Also known as": "gonoccocus",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Neisseria gonorrhoeae",
+      "also_known_as": "gonoccocus",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "STI"
       ],
-      "Family": "Neisseriaceae",
-      "Disease": "Gonnorheae",
+      "family": "Neisseriaceae",
+      "disease": "Gonnorheae",
       "taxids": 485,
-      "Notes": "fluoroquinolone-resistant, third-generation cephalosporin-resistant",
+      "number_of_priority_lists": 2,
+      "notes": "fluoroquinolone-resistant, third-generation cephalosporin-resistant",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 30
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 30
     },
     {
-      "Pathogen": "Henipavirus nipahense",
-      "Also known as": "Nipah henipavirus\nNipah virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Henipavirus nipahense",
+      "also_known_as": "Nipah henipavirus\nNipah virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism"
       ],
-      "Family": "Paramyxoviridae",
+      "family": "Paramyxoviridae",
       "taxids": 3052225,
-      "NIAID Notes": "Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 3,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 11,
-      "Highest priority": false,
-      "Priority order": 31
+      "number_of_appearances_who_niaid_ecdc": 3,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 11,
+      "highest_priority": false,
+      "priority_order": 31
     },
     {
-      "Pathogen": "Phlebovirus riftense ",
-      "Pathogen subtypes/names": "Rift Valley fever virus",
-      "Also known as": "Rift Valley fever virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Phlebovirus riftense ",
+      "pathogen_subtypesnames": "Rift Valley fever virus",
+      "also_known_as": "Rift Valley fever virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Animal disease",
         "Pandemic preparedness"
       ],
-      "Disease Type": "Vector-borne Disease",
-      "Family": "Phenuiviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Rift valley fever",
+      "disease_type": "Vector-borne Disease",
+      "family": "Phenuiviridae",
+      "priority": "High Priority Group",
+      "disease": "Rift valley fever",
       "taxids": 3052676,
-      "Afecting species": "Multiple Species",
-      "NIAID Notes": "Viral hemorrhagic fevers (bunyaviruses), Antiviral Program for Pandemics",
+      "afecting_species": "Multiple Species",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Viral hemorrhagic fevers (bunyaviruses), Antiviral Program for Pandemics",
       "prioritized_by": [
         "WOAH",
         "NIAID",
         "ECDC",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 10,
-      "Highest priority": false,
-      "Priority order": 32
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 10,
+      "highest_priority": false,
+      "priority_order": 32
     },
     {
-      "Pathogen": "Morbillivirus hominis  ",
-      "Pathogen subtypes/names": "Measles morbillivirus",
-      "Also known as": "Measles morbillivirus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Morbillivirus hominis  ",
+      "pathogen_subtypesnames": "Measles morbillivirus",
+      "also_known_as": "Measles morbillivirus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "vaccine-preventable",
         "Pandemic preparedness"
       ],
-      "Disease Type": "Vaccine-Preventable Disease",
-      "Family": "Paramyxoviridae",
-      "Priority": "High Priority Group",
-      "Disease": "Measles",
+      "disease_type": "Vaccine-Preventable Disease",
+      "family": "Paramyxoviridae",
+      "priority": "High Priority Group",
+      "disease": "Measles",
       "taxids": 3052345,
-      "NIAID Notes": "Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC",
         "AFRICACDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 3,
-      "Priority score": 10,
-      "Highest priority": false,
-      "Priority order": 33
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 3,
+      "priority_score": 10,
+      "highest_priority": false,
+      "priority_order": 33
     },
     {
-      "Pathogen": "Borrelia burgdorferi",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Borrelia burgdorferi",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Disease Type": "Vector-borne Disease",
-      "Family": "Borreliaceae",
-      "Disease": "Lyme disease",
+      "disease_type": "Vector-borne Disease",
+      "family": "Borreliaceae",
+      "disease": "Lyme disease",
       "taxids": 139,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 9,
-      "Highest priority": false,
-      "Priority order": 34
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 9,
+      "highest_priority": false,
+      "priority_order": 34
     },
     {
-      "Pathogen": "Orthoflavivirus nilense",
-      "Pathogen subtypes/names": "West Nile virus",
-      "Also known as": "West Nile virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthoflavivirus nilense",
+      "pathogen_subtypesnames": "West Nile virus",
+      "also_known_as": "West Nile virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "vaccine-preventable",
         "Pandemic preparedness"
       ],
-      "Family": "Flaviviridae",
-      "Disease": "WNV",
+      "family": "Flaviviridae",
+      "disease": "WNV",
       "taxids": 3048448,
-      "NIAID Notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 9,
-      "Highest priority": false,
-      "Priority order": 35
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 9,
+      "highest_priority": false,
+      "priority_order": 35
     },
     {
-      "Pathogen": "Betainfluenzavirus influenzae",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Betainfluenzavirus influenzae",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Family": "Orthomyxoviridae",
+      "family": "Orthomyxoviridae",
       "taxids": 2955465,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 9,
-      "Highest priority": false,
-      "Priority order": 36
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 9,
+      "highest_priority": false,
+      "priority_order": 36
     },
     {
-      "Pathogen": "Deltainfluenzavirus influenzae",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Deltainfluenzavirus influenzae",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Pandemic preparedness",
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Family": "Orthomyxoviridae",
+      "family": "Orthomyxoviridae",
       "taxids": 2955744,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 9,
-      "Highest priority": false,
-      "Priority order": 37
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 9,
+      "highest_priority": false,
+      "priority_order": 37
     },
     {
-      "Pathogen": "Gammainfluenzavirus influenzae",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Gammainfluenzavirus influenzae",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness",
         "vaccine-preventable"
       ],
-      "Family": "Orthomyxoviridae",
+      "family": "Orthomyxoviridae",
       "taxids": 2955935,
+      "number_of_priority_lists": 3,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 9,
-      "Highest priority": false,
-      "Priority order": 38
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 9,
+      "highest_priority": false,
+      "priority_order": 38
     },
     {
-      "Pathogen": "Hepatovirus A",
-      "Also known as": "Hepatitis A virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Hepatovirus A",
+      "also_known_as": "Hepatitis A virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "STI",
         "vaccine-preventable"
       ],
-      "Family": "Picornaviridae",
+      "family": "Picornaviridae",
       "taxids": 12092,
-      "NIAID Notes": "Food- and/or waterborne pathogen",
+      "number_of_priority_lists": 3,
+      "niaid_notes": "Food- and/or waterborne pathogen",
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 3,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 9,
-      "Highest priority": false,
-      "Priority order": 39
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 9,
+      "highest_priority": false,
+      "priority_order": 39
     },
     {
-      "Pathogen": "Orthoflavivirus japonicum ",
-      "Pathogen subtypes/names": "Japanese encephalitis virus",
-      "Also known as": "Japanese encephalitis virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthoflavivirus japonicum ",
+      "pathogen_subtypesnames": "Japanese encephalitis virus",
+      "also_known_as": "Japanese encephalitis virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Animal disease",
         "Pandemic preparedness"
       ],
-      "Family": "Flaviviridae",
-      "Disease": "JE",
+      "family": "Flaviviridae",
+      "disease": "JE",
       "taxids": 3048158,
-      "Afecting species": "Multiple Species",
-      "NIAID Notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
+      "afecting_species": "Multiple Species",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
       "prioritized_by": [
         "WOAH",
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 40
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 40
     },
     {
-      "Pathogen": "Acinetobacter baumannii",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Acinetobacter baumannii",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Moraxellaceae ",
+      "family": "Moraxellaceae ",
       "taxids": 470,
-      "Notes": "carbapenem-resistant, Multidrug-resistant (MDR)",
+      "number_of_priority_lists": 2,
+      "notes": "carbapenem-resistant, Multidrug-resistant (MDR)",
       "prioritized_by": [
         "NIAID",
         "WHO",
         "CDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 41
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 41
     },
     {
-      "Pathogen": "Bordetella pertussis",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Bordetella pertussis",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "vaccine-preventable"
       ],
-      "Family": "Alcaligenaceae ",
-      "Disease": "Pertussis o whooping cough",
+      "family": "Alcaligenaceae ",
+      "disease": "Pertussis o whooping cough",
       "taxids": 520,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 42
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 42
     },
     {
-      "Pathogen": "Campylobacter jejuni",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Campylobacter jejuni",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "AMR/Nosocomial infection"
       ],
-      "Family": "Campylobacteraceae ",
+      "family": "Campylobacteraceae ",
       "taxids": 197,
-      "NIAID Notes": "Food- and/or waterborne pathogen",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Food- and/or waterborne pathogen",
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 43
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 43
     },
     {
-      "Pathogen": "Chlamydia trachomatis",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Chlamydia trachomatis",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "STI",
         "Neglected Tropical Diseases"
       ],
-      "Family": "Chlamydiaceae ",
-      "Disease": "Chlamydia",
+      "family": "Chlamydiaceae ",
+      "disease": "Chlamydia",
       "taxids": 813,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 44
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 44
     },
     {
-      "Pathogen": "Klebsiella pneumoniae",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Klebsiella pneumoniae",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "Pandemic preparedness"
       ],
-      "Family": "Enterobacteriaceae",
+      "family": "Enterobacteriaceae",
       "taxids": 573,
-      "Notes": "carbapenem-resistant, third-generation cephalosporin-resistant",
+      "number_of_priority_lists": 2,
+      "notes": "carbapenem-resistant, third-generation cephalosporin-resistant",
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 45
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 45
     },
     {
-      "Pathogen": "Haemophilus influenzae",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Haemophilus influenzae",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "vaccine-preventable"
       ],
-      "Family": "Pasteurellaceae",
+      "family": "Pasteurellaceae",
       "taxids": 727,
-      "Notes": "ampicillin-resistant",
+      "number_of_priority_lists": 2,
+      "notes": "ampicillin-resistant",
       "prioritized_by": [
         "ECDC",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 46
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 46
     },
     {
-      "Pathogen": "Clostridioides difficile",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Clostridioides difficile",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "Pandemic preparedness",
         "AMR/Nosocomial infection"
       ],
-      "Family": "Peptostreptococcaceae ",
+      "family": "Peptostreptococcaceae ",
       "taxids": 1496,
+      "number_of_priority_lists": 2,
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 47
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 47
     },
     {
-      "Pathogen": "Orthopneumovirus hominis",
-      "Also known as": "Human Respiratory syncytial virus",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Orthopneumovirus hominis",
+      "also_known_as": "Human Respiratory syncytial virus",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "vaccine-preventable",
         "Pandemic preparedness"
       ],
-      "Family": "Pneumoviridae",
+      "family": "Pneumoviridae",
       "taxids": 3049954,
-      "NIAID Notes": "Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "ECDC"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 48
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 48
     },
     {
-      "Pathogen": "Streptococcus pyogenes",
-      "Also known as": "GAS, group A streptococcus",
-      "Pathogen Type": "Bacteria",
-      "Priority type": [
+      "pathogen": "Streptococcus pyogenes",
+      "also_known_as": "GAS, group A streptococcus",
+      "pathogen_type": "Bacteria",
+      "priority_type": [
         "AMR/Nosocomial infection",
         "vaccine-preventable"
       ],
-      "Family": "Streptococcaceae",
+      "family": "Streptococcaceae",
       "taxids": 1314,
-      "Notes": "macrolide-resistant",
+      "number_of_priority_lists": 2,
+      "notes": "macrolide-resistant",
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 49
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 49
     },
     {
-      "Pathogen": "Venezuelan equine encephalitis virus",
-      "Also known as": "Alphavirus Venezuelan",
-      "Pathogen Type": "Virus",
-      "Priority type": [
+      "pathogen": "Venezuelan equine encephalitis virus",
+      "also_known_as": "Alphavirus Venezuelan",
+      "pathogen_type": "Virus",
+      "priority_type": [
         "Biodefense/Bioterrorism",
         "Pandemic preparedness"
       ],
-      "Family": "Togaviridae",
-      "Disease": "Venezuelan equine encephalitis (VEE)",
+      "family": "Togaviridae",
+      "disease": "Venezuelan equine encephalitis (VEE)",
       "taxids": 11036,
-      "NIAID Notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
+      "number_of_priority_lists": 2,
+      "niaid_notes": "Mosquito-borne viruses, Antiviral Program for Pandemics",
       "prioritized_by": [
         "NIAID",
         "WHO"
       ],
-      "Number of priority lists": 2,
-      "Number of appearances (WHO, NIAID, ECDC)": 2,
-      "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)": 2,
-      "Priority score": 8,
-      "Highest priority": false,
-      "Priority order": 50
+      "number_of_appearances_who_niaid_ecdc": 2,
+      "number_of_appearances_who_niaid_ecdc_africacdc": 2,
+      "priority_score": 8,
+      "highest_priority": false,
+      "priority_order": 50
     }
   ]
 }
