@@ -5,6 +5,7 @@ from gspread_dataframe import get_as_dataframe
 from datetime import datetime
 import json
 import os
+import re
 
 # --- Configuration ---
 CREDENTIALS_PATH = "credentials_gsheet.json"
@@ -17,8 +18,8 @@ PDN_JSON_PATH = "data/pdn_priority_pathogens.json"
 def compute_score(entry):
     """Define a scoring function to compute the score of a pathogen based on its attributes.
     The score is computed as follows:
-    - Number of appearances (WHO, NIAID, ECDC) * 1
-    - Number of priority lists * 2
+    - number_of_appearances_who_niaid_ecdc * 1
+    - number_of_priority_lists * 2
     - WasteWater * 1
     - Fungi * 3
     - Parasite (Protozoa) * 4
@@ -30,8 +31,8 @@ def compute_score(entry):
     entry : dict
         A dictionary representing a pathogen entry from the Google Sheet.
         The dictionary contains the following   keys:
-        - "Number of appearances (WHO, NIAID, ECDC)"
-        - "Number of priority lists"
+        - "number_of_appearances_who_niaid_ecdc"
+        - "number_of_priority_lists"
         - "WasteWater"
         - "Pathogen Type"
         The values of these keys are used to compute the score.
@@ -42,16 +43,23 @@ def compute_score(entry):
         The score is an integer value that represents the priority of the pathogen.
     """
     # Compute the score based on the attributes of the pathogen
-    appearances1 = entry.get("Number of appearances (WHO, NIAID, ECDC)", 0)
-    appearances2 = entry.get("Number of appearances (WHO, NIAID, ECDC, AFRICACDC)", 0)
-    priority_types = entry.get("Number of priority lists", 0)
-    wastewater = 1 if str(entry.get("WasteWater", "")).strip().lower() == "yes" else 0
+    appearances1 = entry.get("number_of_appearances_who_niaid_ecdc", 0)
+    appearances2 = entry.get("number_of_appearances_who_niaid_ecdc_africacdc", 0)
+    priority_types = entry.get("number_of_priority_lists", 0)
+    wastewater = 1 if str(entry.get("wastewater", "")).strip().lower() == "yes" else 0
     base = appearances1 * 1 + appearances2 * 2 + priority_types * 1 + wastewater * 1
-    if entry.get("Pathogen Type") == "Fungi":
+    if entry.get("pathogen_type") == "Fungi":
         base += 3
-    elif entry.get("Pathogen Type") == "Parasite (Protozoa)":
+    elif entry.get("pathogen_type") == "Parasite (Protozoa)":
         base += 4
     return base
+
+
+def normalize_key(key):
+    """Convert a string to snake_case and remove special characters."""
+    key = re.sub(r"[^\w\s]", "", key)  # Remove punctuation
+    key = re.sub(r"\s+", "_", key.strip())  # Replace whitespace with underscore
+    return key.lower()
 
 
 def load_pathogen_data(spreadsheet):
@@ -72,8 +80,8 @@ def load_pathogen_data(spreadsheet):
         - "Pathogen Type"
         - "Taxids"
         - "Priority type"
-        - "Number of priority lists"
-        - "Number of appearances (WHO, NIAID, ECDC)"
+        - "number_of_priority_lists"
+        - "number_of_appearances_who_niaid_ecdc"
         - "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)"
         - etc.
     """
@@ -162,11 +170,11 @@ def transform_pathogen_row(row, priority_sources):
         - "Pathogen Type"
         - "Taxids"
         - "Priority type"
-        - "Number of priority lists"
-        - "Number of appearances (WHO, NIAID, ECDC)"
+        - "number_of_priority_lists"
+        - "number_of_appearances_who_niaid_ecdc"
         - "Number of appearances (WHO, NIAID, ECDC, AFRICACDC)"
         - etc.
-    """    
+    """
     entry = {}
     prioritized_by = [
         source
@@ -178,11 +186,11 @@ def transform_pathogen_row(row, priority_sources):
             continue
         val = row[col]
         if col == "Priority type" and pd.notna(val):
-            entry[col] = [x.strip() for x in str(val).split(",")]
+            entry[normalize_key(col)] = [x.strip() for x in str(val).split(",")]
         elif (
             col
             not in [
-                "Number of priority lists",
+                "Numer of priority lists",
                 "Number of appearances (WHO, NIAD, ECDC)",
                 "Number of appearances (WHO, NIAD, ECDC, AFRICACDC)",
                 "Priority order",
@@ -191,15 +199,17 @@ def transform_pathogen_row(row, priority_sources):
             and pd.notna(val)
             and str(val).strip()
         ):
-            entry[col] = val
+            entry[normalize_key(col)] = val
     entry["prioritized_by"] = prioritized_by
-    entry["Number of priority lists"] = sum(
-        1 for p in entry.get("Priority type", []) if p != "Animal disease"
+    entry["number_of_priority_lists"] = sum(
+        1
+        for p in entry.get("priority_type", [])
+        if p.strip().lower() != "animal disease"
     )
-    entry["Number of appearances (WHO, NIAID, ECDC)"] = sum(
+    entry["number_of_appearances_who_niaid_ecdc"] = sum(
         1 for x in ["WHO", "NIAID", "ECDC"] if x in prioritized_by
     )
-    entry["Number of appearances (WHO, NIAID, ECDC, AFRICACDC)"] = sum(
+    entry["number_of_appearances_who_niaid_ecdc_africacdc"] = sum(
         1 for x in ["WHO", "NIAID", "ECDC", "AFRICACDC"] if x in prioritized_by
     )
     return entry
@@ -215,7 +225,7 @@ def apply_inclusion_criteria(entry):
             A dictionary representing a pathogen entry from the Google Sheet.
             The dictionary contains the following keys:
             - "prioritized_by"
-            - "Number of priority lists"
+            - "number_of_priority_lists"
             - "Pathogen Type"
 
     Returns
@@ -226,8 +236,8 @@ def apply_inclusion_criteria(entry):
         - The pathogen must be prioritized by at least 2 organizations (WHO, NIAID, ECDC)
         - The pathogen must be listed in at least 2 priority lists
     """
-    n_appearances = entry.get("Number of appearances (WHO, NIAID, ECDC)", 0)
-    n_priority_types = entry.get("Number of priority lists", 0)
+    n_appearances = entry.get("number_of_appearances_who_niaid_ecdc", 0)
+    n_priority_types = entry.get("number_of_priority_lists", 0)
 
     return n_appearances >= 2 and n_priority_types >= 2
 
@@ -241,8 +251,8 @@ def add_scoring(entry):
         dict
             A dictionary representing a pathogen entry from the Google Sheet.
             The dictionary contains the following keys:
-            - "Number of appearances (WHO, NIAID, ECDC)"
-            - "Number of priority lists"
+            - "number_of_appearances_who_niaid_ecdc"
+            - "number_of_priority_lists"
             - "WasteWater"
             - "Pathogen Type"
 
@@ -256,8 +266,8 @@ def add_scoring(entry):
         The "Highest priority" key is a boolean indicating if the score is greater than or equal to 12.
     """
     score = compute_score(entry)
-    entry["Priority score"] = score
-    entry["Highest priority"] = score >= 12
+    entry["priority_score"] = score
+    entry["highest_priority"] = score >= 12
     return entry
 
 
@@ -278,7 +288,7 @@ def assign_priority_order(taxa, score_field="Priority score (computed)"):
     """
     sorted_taxa = sorted(taxa, key=lambda x: x.get(score_field, 0), reverse=True)
     for i, entry in enumerate(sorted_taxa, start=1):
-        entry["Priority order"] = i
+        entry["priority_order"] = i
     return sorted_taxa
 
 
@@ -291,23 +301,26 @@ def main():
     priority_sources = active_orgs["Acronym"].dropna().drop_duplicates().tolist()
     source_urls = build_source_urls(active_orgs)
 
+    complete_taxa = []
+    for _, row in patho_df.iterrows():
+        entry = transform_pathogen_row(row, priority_sources)
+        entry = add_scoring(entry)
+        complete_taxa.append(entry)
+
     complete_json = {
         "full_name": "Complete Pathogen Priority List",
         "source_urls": source_urls,
         "last_updated": datetime.now().strftime("%Y-%m-%d"),
-        "taxa": [],
+        "expected_number_of_taxa": len(complete_taxa),
+        "taxa": complete_taxa,
     }
-
-    for _, row in patho_df.iterrows():
-        entry = transform_pathogen_row(row, priority_sources)
-        entry = add_scoring(entry)
-        complete_json["taxa"].append(entry)
 
     # Write complete list
     os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
     patho_df.to_csv(CSV_PATH, index=False)
 
     complete_json["taxa"] = assign_priority_order(complete_json["taxa"])
+
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(complete_json, f, indent=2, ensure_ascii=False)
 
@@ -319,9 +332,10 @@ def main():
         "full_name": "PDN Pathogen Priority List",
         "source_urls": source_urls,
         "last_updated": datetime.now().strftime("%Y-%m-%d"),
-        "taxa": [],
+        "expected_number_of_taxa": len(pdn_taxa),
+        "taxa": pdn_taxa,
     }
-    pdn_json["taxa"] = pdn_taxa
+
     with open(PDN_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(pdn_json, f, indent=2, ensure_ascii=False)
 
