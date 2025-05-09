@@ -30,7 +30,7 @@ This repository is part of the [PDN (Pathogen Data Network)](https://pathogendat
 - Pathogens are named using scientific species names whenever possible.
 - When species-level resolution is not feasible, the genus name is used.
 - Viral naming follows ICTV (International Committee on Taxonomy of Viruses) recommendations.
-- Additional or common names are listed under the `Also known as` field.
+- Additional or common names are listed under the `also_known_as` field.
 
 ### Data sources
 
@@ -87,15 +87,15 @@ Each pathogen is assigned a composite --priority score--, calculated based on:
   - Fungi: +3
   - Protozoan parasites: +4
 
-This score is stored in the field `Priority score`.
+This score is stored in the field `priority_score`.
 
-The full ranked list is available in `complete_priority_pathogens.json`, including the computed priority score and the derived `Priority order`.
+The full ranked list is available in `complete_priority_pathogens.json`, including the computed priority score and the derived `priority_order`.
 
 #### Final selection
 
 - A total of --50 pathogens-- from --33 families-- were retained after filtering.
-- From this list, a subset of --26 pathogens-- is selected for PDN priority consideration, based on the inclusion criteria.
-- Pathogens with a --priority score ≥ 12-- are marked with `Highest priority: true`.
+- From this list, a subset of --22 pathogens-- is selected for PDN priority consideration, based on the inclusion criteria.
+- Pathogens with a --priority score ≥ 12-- are marked with `highest_priority: true`.
 
 ## Outputs
 
@@ -105,11 +105,11 @@ The full ranked list is available in `complete_priority_pathogens.json`, includi
 
 Each pathogen entry includes:
 
-- `Priority type` (as list)
+- `priority_type` (as list)
 - `prioritized_by` (list of sources)
-- `Priority scored`
-- `Priority order`
-- `Highest priority` (boolean)
+- `priority_score`
+- `priority_order`
+- `highest_priority` (boolean)
 
 ## Updating
 
